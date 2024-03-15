@@ -1,4 +1,4 @@
-![tp6](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e8c61688-0a66-4573-8834-9b8a05b61503)# NASSCOM-VSD-SoC-Design
+# NASSCOM-VSD-SoC-Design
 VSD Workshop on Digital SoC Design and Planning using OPENLANE 
 
 ## Topic 1 - Transform your RTL code into a fully realised GDS FLOW
