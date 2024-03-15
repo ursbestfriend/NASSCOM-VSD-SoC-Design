@@ -1,14 +1,15 @@
 # NASSCOM-VSD-SoC-Design
 VSD Workshop on Digital SoC Design and Planning using OPENLANE FLOW 
 
-## Topic 1 - Transform your RTL code into a fully realised GDS FLOW
+## Topic 1 -  OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
+![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
 
 ### Follow the below commands in sequence to generate RESULTS AND REPORTS:
 ![tp1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/804d88cc-faa2-4b93-8071-39e02b657d65)
   
 For More details:  [CLICK HERE](https://github.com/The-OpenROAD-Project/OpenLane/blob/master/docs/source/reference/interactive_mode.md)
 
-### Below are the steps to generate results and reports in the interactive mode for the RTL to GDS2 flow.
+### Below are the steps to generate results and reports in the interactive mode.
 #### STEP 1.	Open Terminal *(Shortcut – CLT + ALT + T)*
 ![tp2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/732b66c9-d64f-44bc-95ba-7752a2fe646a)
 For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.com/community/UsingTheTerminal)
