@@ -48,12 +48,12 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 
 
 <a id="syllabi"></a> 
-**Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK** 
-  SKY130 D1 SK1- How to talk to computers 
-    SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS 
-    SKY L2 - Introduction to RISC-V 
-    SKY L3 - From Software Applications to Hardware
-  SKY130 D1 SK2 - SOC design and OpenLANE 
+**Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
+  SKY130 D1 SK1- How to talk to computers   
+    SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS   
+    SKY L2 - Introduction to RISC-V   
+    SKY L3 - From Software Applications to Hardware  
+  SKY130 D1 SK2 - SOC design and OpenLANE   
     SKY L1 - Introduction to all components of open-source digital asic design 
     SKY L2 - Simplified RTL2GDS flow 
     SKY L3 - Introduction to OpenLANE and Strive chipsets 
