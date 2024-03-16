@@ -71,7 +71,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ***Your Calculator (RISC):*** This is a simpler calculator with just a few buttons: add, subtract, multiply, and divide. It can't do everything your brain can, but for basic tasks, it's much faster because each button performs a specific, simple function.  
 RISC-V (pronounced "risk-five") is like the calculator in the computer world. It's a type of instruction set architecture (ISA) that focuses on keeping things simple.  
 
-***RISC (Reduced Instruction Set Computing):*** This means the processor focuses on a small set of basic instructions, similar to the calculator buttons.
+***RISC (Reduced Instruction Set Computing):*** This means the processor focuses on a small set of basic instructions, similar to the calculator buttons.  
 ***Instruction Set Architecture (ISA):*** This is a language the processor understands, telling it what to do with data.   
 
 ***Benefits of RISC-V:***    
