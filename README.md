@@ -1,6 +1,12 @@
 # NASSCOM-VSD-SoC-Design
-VSD Workshop on Digital SoC Design and Planning using OPENLANE FLOW 
+VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
+This GitHub repository serves as a comprehensive resource for the VSD Workshop.
 
+## <h2 id="day1">Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK</h2>([Day1-Inception of open-source EDA, OpenLANE and Sky130 PDK]())
+
+[Day1-Inception of open-source EDA, OpenLANE and Sky130 PDK]()
+
+[Day2-Good floorplan vs bad floorplan and introduction to library cells](#day2)
 ## Topic 1 -  OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
 
@@ -33,3 +39,4 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![tp10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/506a4eeb-ae9d-42e6-b7ec-6ad7c261f4cb)
 ![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)
 
+###day2
