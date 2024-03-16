@@ -1,12 +1,11 @@
 # NASSCOM-VSD-SoC-Design
 VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.
+[DAY1](#D1)
+[DAY2](#D2)
+[DAY3](#D3)
 
-[CURRICULUM DETAILS](#syllabi)
-
-<a id="syllabi"></a>
-## DIGITAL SoC Design CURRICULUM DETAILS
------------------------------------------------------
+<a id="D1"></a>
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
   **SKY130 D1 SK1- How to talk to computers**   
  
@@ -93,7 +92,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 
   
 
-<a id="DAY2"></a> 
+<a id="D2"></a>
 ## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
   ### SKY130 D2 SK1 - Chip Floor planning considerations 
     SKY L1 -Utilization factor and aspect ratio 
