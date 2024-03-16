@@ -2,11 +2,11 @@
 VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.
 
-## <h2 id="day1">Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK</h2>([Day1-Inception of open-source EDA, OpenLANE and Sky130 PDK]())
 
 [Day1-Inception of open-source EDA, OpenLANE and Sky130 PDK]()
 
-[Day2-Good floorplan vs bad floorplan and introduction to library cells](#day2)
+[Day2-Good floorplan vs bad floorplan and introduction to library cells]()
+
 ## Topic 1 -  OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
 
@@ -19,7 +19,7 @@ For More details:  [CLICK HERE](https://github.com/The-OpenROAD-Project/OpenLane
 #### STEP 1.	Open Terminal *(Shortcut – CLT + ALT + T)*
 ![tp2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/732b66c9-d64f-44bc-95ba-7752a2fe646a)
 For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.com/community/UsingTheTerminal)
-#### STEP 2.	Follow the PATH – using command: *cd  <Folder_Name>*
+#### STEP 2.	Follow the PATH – using the command: *cd  <Folder_Name>*
 ![tp3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8024d2d4-413b-4c0a-a981-8a3321207e2d)
 #### STEP 3.	Go to Design Name: *picorv32a*
  ![tp4](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4bebafdc-486c-4507-b802-2005c0bcd256)
@@ -40,3 +40,4 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)
 
 ###day2
+this is the day2
