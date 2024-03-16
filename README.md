@@ -67,7 +67,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 RISC-V (pronounced "risk-five") is like the calculator in the computer world. It's a type of instruction set architecture (ISA) that focuses on keeping things simple.  Here's the breakdown:  
 ***RISC (Reduced Instruction Set Computing):*** This means the processor focuses on a small set of basic instructions, similar to the calculator buttons.
 ***Instruction Set Architecture (ISA):*** This is basically a language the processor understands, telling it what to do with data.
-***Benefits of RISC-V:***  
+***Benefits of RISC-V:***    
 ***Simpler Design:*** Less complex instructions make RISC-V processors potentially smaller and more energy-efficient.  
 ***Flexibility:*** The basic design allows for customization to fit different needs, similar to having different calculators for scientific or financial purposes.  
 ***Open Source:*** Anyone can design and build RISC-V processors, fostering innovation and collaboration.  
