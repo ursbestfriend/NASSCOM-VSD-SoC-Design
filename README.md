@@ -61,7 +61,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 •	Die: The die (or integrated circuit die) is the actual chip itself before it's packaged. It's a tiny square or rectangular piece of silicon containing the fabricated electronic circuitry.  
 •	IPS: IPS refers to "Inches Per Square" which is a unit used to specify the density of components on a chip. A higher IPS indicates a more densely packed chip with more transistors or other components per unit area.  
 ![d1p1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ef8e9579-8c88-4273-b8d4-b74b2c039d2a)  
-***SKY L2 - Introduction to RISC-V***
+***SKY L2 - Introduction to RISC-V***  
 ***Your Brain (CISC):*** This is like a complex calculator with many buttons. It can do everything: addition, subtraction, multiplication, division, even trigonometry and statistics! But for simple addition, you might need multiple button presses (like adding several numbers together).  
 ***Your Calculator (RISC):*** This is a simpler calculator with just a few buttons: add, subtract, multiply, and divide. It can't do everything your brain can, but for basic tasks, it's much faster because each button performs a specific, simple function.  
 RISC-V (pronounced "risk-five") is like the calculator in the computer world. It's a type of instruction set architecture (ISA) that focuses on keeping things simple.  Here's the breakdown:  
