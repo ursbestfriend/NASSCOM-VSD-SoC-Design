@@ -73,7 +73,13 @@ RISC-V (pronounced "risk-five") is like the calculator in the computer world. It
 ***Open Source:*** Anyone can design and build RISC-V processors, fostering innovation and collaboration.  
 RISC-V is a relatively new architecture, but it's gaining popularity due to its flexibility and efficiency.   
 ![d1p2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e81cdb4d-fe3c-4696-8999-cae16bc8f4a1)  
-SKY L3 - From Software Applications to Hardware  
+***SKY L3 - From Software Applications to Hardware***  
+Imagine writing instructions for a robot. That's what programmers do when they create software! But robots (and computers) only understand very specific commands. Here's the journey your code takes to become something the chip can understand:  
+**Higher Level Language:** You write code in a language you understand, like Python or C++. This is easy for humans to read and write, but not for computers.    
+**Compiler:** The compiler acts as a translator. It takes your higher-level code and converts it into assembly language, a lower-level language that's closer to what the machine understands.  
+**Assembler:**  The assembler then takes the assembly language and translates it into machine code. This is a series of very specific instructions (0s and 1s) that the processor can directly execute.  
+**Operating System (OS):**  The OS acts as a manager, preparing the machine code for execution. It allocates memory, handles input/output, and ensures everything runs smoothly.  
+**Chip:** Finally, the machine code reaches the chip, specifically the Central Processing Unit (CPU). The CPU decodes the instructions and performs the actual operations like calculations or data manipulation.    
 ![d1p3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5b52eade-0a73-403c-95ee-2a9a6fea7112)  
 **SKY130 D1 SK2 - SOC design and OpenLANE**   
     SKY L1 - Introduction to all components of open-source digital asic design 
