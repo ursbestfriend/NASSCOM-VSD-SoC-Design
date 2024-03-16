@@ -37,7 +37,7 @@ RISC-V (pronounced "risk-five") is like the calculator in the computer world. It
 RISC-V is a relatively new architecture, but it's gaining popularity due to its flexibility and efficiency.   
 ![d1p2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e81cdb4d-fe3c-4696-8999-cae16bc8f4a1)  
 
-***SKY L3 - From Software Applications to Hardware***  
+***SKY L3 - From Software Applications to Hardware***    
 Imagine writing instructions for a robot. That's what programmers do when they create software! But robots (and computers) only understand very specific commands. Here's the journey your code takes to become something the chip can understand:  
 **Higher Level Language:** You write code in a language you understand, like Python or C++. This is easy for humans to read and write, but not for computers.    
 **Compiler:** The compiler acts as a translator. It takes your higher-level code and converts it into assembly language, a lower-level language that's closer to what the machine understands.  
@@ -50,7 +50,7 @@ Imagine writing instructions for a robot. That's what programmers do when they c
 ***SKY L2 - Simplified RTL2GDS flow***  
 ***SKY L3 - Introduction to OpenLANE and Strive chipsets***  
 ***SKY L4 - Introduction to OpenLANE detailed ASIC design flow***  
------------------------------------------------------
+
 <a id="Topic"></a> 
 ### OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
@@ -83,7 +83,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![tp11](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/181fa85d-c489-4af0-8691-9d87e9a0cd36)
 ![tp10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/506a4eeb-ae9d-42e6-b7ec-6ad7c261f4cb)
 ![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)
------------------------------------------------------
+
 
 
   ### SKY130 DI SK3-Get familiar to open-source EDA tools 
@@ -92,11 +92,10 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
     SKY L3 - Review files after design prep and run synthesis 
     SKY L4 - OpenLANE Project Git Link Description 
     SKY L5 - Steps to characterize synthesis results
------------------------------------------------------
+
 <a id="DAY2"></a> 
 ## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
------------------------------------------------------
------------------------------------------------------
+
 ## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells 
   ### SKY130 D2 SK1 - Chip Floor planning considerations 
     SKY L1 -Utilization factor and aspect ratio 
