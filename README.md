@@ -43,11 +43,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![tp11](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/181fa85d-c489-4af0-8691-9d87e9a0cd36)
 ![tp10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/506a4eeb-ae9d-42e6-b7ec-6ad7c261f4cb)
 ![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)
------------------------------------------------------
-<a id="DAY2"></a> 
-## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
------------------------------------------------------
------------------------------------------------------
+
 <a id="syllabi"></a>
 ## DIGITAL SoC Design CURRICULUM DETAILS
 -----------------------------------------------------
@@ -81,7 +77,6 @@ RISC-V (pronounced "risk-five") is like the calculator in the computer world. It
 RISC-V is a relatively new architecture, but it's gaining popularity due to its flexibility and efficiency.   
 ![d1p2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e81cdb4d-fe3c-4696-8999-cae16bc8f4a1)  
 
-
 ***SKY L3 - From Software Applications to Hardware***  
 Imagine writing instructions for a robot. That's what programmers do when they create software! But robots (and computers) only understand very specific commands. Here's the journey your code takes to become something the chip can understand:  
 **Higher Level Language:** You write code in a language you understand, like Python or C++. This is easy for humans to read and write, but not for computers.    
@@ -89,18 +84,15 @@ Imagine writing instructions for a robot. That's what programmers do when they c
 **Assembler:**  The assembler then takes the assembly language and translates it into machine code. This is a series of very specific instructions (0s and 1s) that the processor can directly execute.  
 **Operating System (OS):**  The OS acts as a manager, preparing the machine code for execution. It allocates memory, handles input/output, and ensures everything runs smoothly.  
 **Chip:** Finally, the machine code reaches the chip, specifically the Central Processing Unit (CPU). The CPU decodes the instructions and performs the actual operations like calculations or data manipulation.    
-![d1p3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5b52eade-0a73-403c-95ee-2a9a6fea7112)
-
+![d1p3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5b52eade-0a73-403c-95ee-2a9a6fea7112)  
 **SKY130 D1 SK2 - SOC design and OpenLANE**  
-SKY L1 - Introduction to all components of open-source digital ASIC design  
-SKY L2 - Simplified RTL2GDS flow  
-SKY L3 - Introduction to OpenLANE and Strive chipsets  
-SKY L4 - Introduction to OpenLANE detailed ASIC design flow 
+***SKY L1 - Introduction to all components of open-source digital ASIC design***  
+***SKY L2 - Simplified RTL2GDS flow***  
+***SKY L3 - Introduction to OpenLANE and Strive chipsets***  
+***SKY L4 - Introduction to OpenLANE detailed ASIC design flow***  
 -----------------------------------------------------
 <a id="Topic"></a> 
-## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
------------------------------------------------------
-## OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
+### OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
 
 ### Follow the below commands in sequence to generate RESULTS AND REPORTS:
@@ -140,6 +132,11 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
     SKY L3 - Review files after design prep and run synthesis 
     SKY L4 - OpenLANE Project Git Link Description 
     SKY L5 - Steps to characterize synthesis results
+-----------------------------------------------------
+<a id="DAY2"></a> 
+## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
+-----------------------------------------------------
+-----------------------------------------------------
 ## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells 
   ### SKY130 D2 SK1 - Chip Floor planning considerations 
     SKY L1 -Utilization factor and aspect ratio 
