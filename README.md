@@ -45,12 +45,17 @@ Imagine writing instructions for a robot. That's what programmers do when they c
 **Operating System (OS):**  The OS acts as a manager, preparing the machine code for execution. It allocates memory, handles input/output, and ensures everything runs smoothly.  
 **Chip:** Finally, the machine code reaches the chip, specifically the Central Processing Unit (CPU). The CPU decodes the instructions and performs the actual operations like calculations or data manipulation.    
 ![d1p3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5b52eade-0a73-403c-95ee-2a9a6fea7112)  
-**SKY130 D1 SK2 - SOC design and OpenLANE**  
+### SKY130 D1 SK2 - SOC design and OpenLANE 
 ***SKY L1 - Introduction to all components of open-source digital ASIC design***  
 ***SKY L2 - Simplified RTL2GDS flow***  
 ***SKY L3 - Introduction to OpenLANE and Strive chipsets***  
 ***SKY L4 - Introduction to OpenLANE detailed ASIC design flow***  
-
+### SKY130 DI SK3-Get familiar to open-source EDA tools  
+***SKY L1 - OpenLANE Directory structure in detail***  
+***SKY L2 - Design Preparation Step***  
+***SKY L3 - Review files after design prep and run synthesis***  
+***SKY L4 - OpenLANE Project Git Link Description***  
+***SKY L5 - Steps to characterize synthesis results***
 <a id="Topic"></a> 
 ### OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
@@ -86,12 +91,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 
 
 
-  ### SKY130 DI SK3-Get familiar to open-source EDA tools 
-    SKY L1 - OpenLANE Directory structure in detail 
-    SKY L2 - Design Preparation Step 
-    SKY L3 - Review files after design prep and run synthesis 
-    SKY L4 - OpenLANE Project Git Link Description 
-    SKY L5 - Steps to characterize synthesis results
+  
 
 <a id="DAY2"></a> 
 ## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
