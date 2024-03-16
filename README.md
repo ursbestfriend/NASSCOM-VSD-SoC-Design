@@ -4,9 +4,9 @@ This GitHub repository serves as a comprehensive resource for the VSD Workshop.
 
 [Jump to Details](#details)
 
-[Day1-Inception of open-source EDA, OpenLANE and Sky130 PDK]()
+[Day 1-Inception of open-source EDA, OpenLANE and Sky130 PDK](#DAY1)
 
-[Day2-Good floorplan vs bad floorplan and introduction to library cells]((#DAY2))
+[Day 2-Good floorplan vs bad floorplan and introduction to library cells](#DAY2)
 
 ## Topic 1 -  OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
