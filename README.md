@@ -8,9 +8,10 @@ This GitHub repository serves as a comprehensive resource for the VSD Workshop.
 
 [Day 2-Good floorplan vs bad floorplan and introduction to library cells](#DAY2)
 
-
+-----------------------------------------------------
 <a id="Topic"></a> 
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
+-----------------------------------------------------
 ## OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
 
@@ -42,30 +43,32 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![tp11](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/181fa85d-c489-4af0-8691-9d87e9a0cd36)
 ![tp10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/506a4eeb-ae9d-42e6-b7ec-6ad7c261f4cb)
 ![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)
-
+-----------------------------------------------------
 <a id="DAY2"></a> 
 ## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
-
-
-<a id="syllabi"></a> 
-##Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
-  ###SKY130 D1 SK1- How to talk to computers   
-         SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS   
+-----------------------------------------------------
+-----------------------------------------------------
+<a id="syllabi"></a>
+## DIGITAL SoC Design CURRICULUM DETAILS
+-----------------------------------------------------
+## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
+  ### SKY130 D1 SK1- How to talk to computers   
+     SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS   
      SKY L2 - Introduction to RISC-V   
      SKY L3 - From Software Applications to Hardware  
-  ###SKY130 D1 SK2 - SOC design and OpenLANE   
+  ### SKY130 D1 SK2 - SOC design and OpenLANE   
     SKY L1 - Introduction to all components of open-source digital asic design 
     SKY L2 - Simplified RTL2GDS flow 
     SKY L3 - Introduction to OpenLANE and Strive chipsets 
     SKY L4 - Introduction to OpenLANE detailed ASIC design flow
-  ###SKY130 DI SK3-Get familiar to open-source EDA tools 
+  ### SKY130 DI SK3-Get familiar to open-source EDA tools 
     SKY L1 - OpenLANE Directory structure in detail 
     SKY L2 - Design Preparation Step 
     SKY L3 - Review files after design prep and run synthesis 
     SKY L4 - OpenLANE Project Git Link Description 
     SKY L5 - Steps to characterize synthesis results
-##Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells** 
-  ###SKY130 D2 SK1 - Chip Floor planning considerations 
+## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells** 
+  ### SKY130 D2 SK1 - Chip Floor planning considerations 
     SKY L1 -Utilization factor and aspect ratio 
     SKY L2 -Concept of pre-placed cells 
     SKY 13 - De-coupling capacitors 
@@ -74,18 +77,18 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
     SKY L6 - Steps to run floorplan using OpenLANE 
     SKY L7 - Review floorplan files and steps to view floorplan 
     SKY L8 - Review floorplan layout in Magic
-###SKY130 D2 SK2 - Library Binding and Placement
+### SKY130 D2 SK2 - Library Binding and Placement
     SKY L1 - Netlist binding and initial place design 
     SKY L2 - Optimize placement using estimated wire-length and capacitance 
     SKY L3 - Final placement optimization 
     SKY L4 - Need for libraries and characterization 
     SKY L5 - Congestion aware placement using RePlAce 
-###SKY130 D2 SK3 - Cell design and characterization flows
+### SKY130 D2 SK3 - Cell design and characterization flows
     SKY L1 - Inputs for cell design flow 
     SKY L2 - Circuit design step 
     SKY L3 - Layout design step 
     SKY L4 - Typical characterization flow 
-###SKY130 D2 SK4 - General timing characterization parameters
+### SKY130 D2 SK4 - General timing characterization parameters
     SKY L1 - Timing threshold definitions 
     SKY L2 - Propagation delay and transition time 
 
