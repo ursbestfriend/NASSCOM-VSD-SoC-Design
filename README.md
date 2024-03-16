@@ -40,7 +40,8 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![tp10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/506a4eeb-ae9d-42e6-b7ec-6ad7c261f4cb)
 ![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)
 
-## DAY2 -  Good floorplan vs bad floorplan and introduction to library cells  
-<a id="DAY2"></a> This content will be displayed when the link is clicked.
+<a id="DAY2"></a> 
+## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
+
 
 
