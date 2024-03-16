@@ -3,7 +3,6 @@ VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collabor
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.  
 [DAY 1 Inception of open-source EDA, OpenLANE and Sky130 PDK](#D1)  
 [DAY 2 Good floorplan vs bad floorplan and introduction to library cells](#D2)  
-[DAY 3](#D3)  
 
 <a id="D1"></a>
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
