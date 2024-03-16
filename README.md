@@ -1,6 +1,7 @@
 # NASSCOM-VSD-SoC-Design
 VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.
+
 [CURRICULUM DETAILS](#syllabi)
 
 [Day 1-Inception of open-source EDA, OpenLANE and Sky130 PDK](#Topic)
