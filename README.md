@@ -53,7 +53,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 -----------------------------------------------------
 ## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
   **SKY130 D1 SK1- How to talk to computers**  
-SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS  
+***SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS***  
 •	QFN-48 Package: This refers to an introduction to a specific type of integrated circuit (IC) package called a Quad Flat No-lead package with 48 electrical connections.  
 •	Chip: A chip, also commonly called a microchip or integrated circuit (IC), is a miniaturized electronic circuit containing a large number of transistors, resistors, capacitors, and other electronic components all fabricated on a single piece of semiconductor material (usually silicon).  
 •	Pads: Pads are the connection points on a chip's exterior that allow it to be electrically connected to a package or other circuit board. They are essentially landing zones for external signals.
