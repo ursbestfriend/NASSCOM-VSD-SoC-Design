@@ -1,9 +1,9 @@
 # NASSCOM-VSD-SoC-Design
 VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.  
-[DAY1](#D1)  
-[DAY2](#D2)  
-[DAY3](#D3)  
+[DAY 1 Inception of open-source EDA, OpenLANE and Sky130 PDK](#D1)  
+[DAY 2 Good floorplan vs bad floorplan and introduction to library cells](#D2)  
+[DAY 3](#D3)  
 
 <a id="D1"></a>
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
@@ -86,11 +86,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![Ttp12](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/91858e16-9608-4a9c-942c-a1d74e30f7e1)
 ![tp11](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/181fa85d-c489-4af0-8691-9d87e9a0cd36)
 ![tp10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/506a4eeb-ae9d-42e6-b7ec-6ad7c261f4cb)
-![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)
-
-
-
-  
+![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)  
 
 <a id="D2"></a>
 ## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
