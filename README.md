@@ -52,7 +52,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ## DIGITAL SoC Design CURRICULUM DETAILS
 -----------------------------------------------------
 ## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
-  ### SKY130 D1 SK1- How to talk to computers   
+  **SKY130 D1 SK1- How to talk to computers**   
      SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS   
      ![d1p1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ef8e9579-8c88-4273-b8d4-b74b2c039d2a)
      SKY L2 - Introduction to RISC-V
