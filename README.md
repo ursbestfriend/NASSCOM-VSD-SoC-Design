@@ -52,27 +52,36 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ## DIGITAL SoC Design CURRICULUM DETAILS
 -----------------------------------------------------
 ## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
-  **SKY130 D1 SK1- How to talk to computers**  
-***SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS***  
-•	QFN-48 Package: This refers to an introduction to a specific type of integrated circuit (IC) package called a Quad Flat No-lead package with 48 electrical connections.  
-•	Chip: A chip, also commonly called a microchip or integrated circuit (IC), is a miniaturized electronic circuit containing a large number of transistors, resistors, capacitors, and other electronic components all fabricated on a single piece of semiconductor material (usually silicon).  
-•	Pads: Pads are the connection points on a chip's exterior that allow it to be electrically connected to a package or other circuit board. They are essentially landing zones for external signals.
-•	Core: In the context of an SoC (System-on-Chip), the core refers to the central processing unit (CPU) or other primary functional unit of the chip. It's the heart of the processing power.  
-•	Die: The die (or integrated circuit die) is the actual chip itself before it's packaged. It's a tiny square or rectangular piece of silicon containing the fabricated electronic circuitry.  
-•	IPS: IPS refers to "Inches Per Square" which is a unit used to specify the density of components on a chip. A higher IPS indicates a more densely packed chip with more transistors or other components per unit area.  
+  **SKY130 D1 SK1- How to talk to computers**   
+ 
+***SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS***   
+
+**QFN-48 Package:** This refers to an introduction to a specific type of integrated circuit (IC) package called a Quad Flat No-lead package with 48 electrical connections.  
+**Chip:** A chip, also commonly called a microchip or integrated circuit (IC), is a miniaturized electronic circuit containing a large number of transistors, resistors, capacitors, and other electronic components all fabricated on a single piece of semiconductor material (usually silicon).  
+**Pads:** Pads are the connection points on a chip's exterior that allow it to be electrically connected to a package or other circuit board. They are essentially landing zones for external signals.
+**Core:** In the context of an SoC (System-on-Chip), the core refers to the central processing unit (CPU) or other primary functional unit of the chip. It's the heart of the processing power.  
+**Die:** The die (or integrated circuit die) is the actual chip itself before it's packaged. It's a tiny square or rectangular piece of silicon containing the fabricated electronic circuitry.  
+**IPS:** IPS refers to "Inches Per Square" which is a unit used to specify the density of components on a chip. A higher IPS indicates a more densely packed chip with more transistors or other components per unit area.  
 ![d1p1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ef8e9579-8c88-4273-b8d4-b74b2c039d2a)  
+
 ***SKY L2 - Introduction to RISC-V***  
+
 ***Your Brain (CISC):*** This is like a complex calculator with many buttons. It can do everything: addition, subtraction, multiplication, division, even trigonometry and statistics! But for simple addition, you might need multiple button presses (like adding several numbers together).  
+
 ***Your Calculator (RISC):*** This is a simpler calculator with just a few buttons: add, subtract, multiply, and divide. It can't do everything your brain can, but for basic tasks, it's much faster because each button performs a specific, simple function.  
-RISC-V (pronounced "risk-five") is like the calculator in the computer world. It's a type of instruction set architecture (ISA) that focuses on keeping things simple.  Here's the breakdown:  
+RISC-V (pronounced "risk-five") is like the calculator in the computer world. It's a type of instruction set architecture (ISA) that focuses on keeping things simple.  
+
 ***RISC (Reduced Instruction Set Computing):*** This means the processor focuses on a small set of basic instructions, similar to the calculator buttons.
-***Instruction Set Architecture (ISA):*** This is basically a language the processor understands, telling it what to do with data.
+***Instruction Set Architecture (ISA):*** This is a language the processor understands, telling it what to do with data.   
+
 ***Benefits of RISC-V:***    
 ***Simpler Design:*** Less complex instructions make RISC-V processors potentially smaller and more energy-efficient.  
 ***Flexibility:*** The basic design allows for customization to fit different needs, similar to having different calculators for scientific or financial purposes.  
 ***Open Source:*** Anyone can design and build RISC-V processors, fostering innovation and collaboration.  
 RISC-V is a relatively new architecture, but it's gaining popularity due to its flexibility and efficiency.   
 ![d1p2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e81cdb4d-fe3c-4696-8999-cae16bc8f4a1)  
+
+
 ***SKY L3 - From Software Applications to Hardware***  
 Imagine writing instructions for a robot. That's what programmers do when they create software! But robots (and computers) only understand very specific commands. Here's the journey your code takes to become something the chip can understand:  
 **Higher Level Language:** You write code in a language you understand, like Python or C++. This is easy for humans to read and write, but not for computers.    
@@ -81,6 +90,8 @@ Imagine writing instructions for a robot. That's what programmers do when they c
 **Operating System (OS):**  The OS acts as a manager, preparing the machine code for execution. It allocates memory, handles input/output, and ensures everything runs smoothly.  
 **Chip:** Finally, the machine code reaches the chip, specifically the Central Processing Unit (CPU). The CPU decodes the instructions and performs the actual operations like calculations or data manipulation.    
 ![d1p3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5b52eade-0a73-403c-95ee-2a9a6fea7112)  
+
+
 **SKY130 D1 SK2 - SOC design and OpenLANE**   
     SKY L1 - Introduction to all components of open-source digital asic design 
     SKY L2 - Simplified RTL2GDS flow 
