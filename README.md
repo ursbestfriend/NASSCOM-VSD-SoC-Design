@@ -67,7 +67,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
     SKY L3 - Review files after design prep and run synthesis 
     SKY L4 - OpenLANE Project Git Link Description 
     SKY L5 - Steps to characterize synthesis results
-## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells** 
+## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells 
   ### SKY130 D2 SK1 - Chip Floor planning considerations 
     SKY L1 -Utilization factor and aspect ratio 
     SKY L2 -Concept of pre-placed cells 
