@@ -91,18 +91,68 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 
 <a id="D2"></a>
 ## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
-  ### SKY130 D2 SK1 - Chip Floor planning considerations 
-    SKY L1 -Utilization factor and aspect ratio 
-    SKY L2 -Concept of pre-placed cells 
-    SKY 13 - De-coupling capacitors 
-    SKY L4-  Power planning 
-    SKY L5 - Pin placement and logical cell placement blockage 
-    SKY L6 - Steps to run floorplan using OpenLANE 
-    SKY L7 - Review floorplan files and steps to view floorplan 
-    SKY L8 - Review floorplan layout in Magic
-### SKY130 D2 SK2 - Library Binding and Placement
+  ### SKY130 D2 SK1 - Chip Floor planning considerations  
+
+### SKY L1 -Utilization factor and aspect ratio 
+**Utilization Factor (UF):**
+Imagine the chip layout as a rectangular plot of land. The utilization factor represents the portion of this land that you'll use to build your house (the functional circuitry).  
+Mathematically, UF = Area used for logic cells / Total core area  
+***Area used for logic cells:*** This includes standard cells, memory blocks, and other functional components.  
+***Total core area:*** This is the entire designated area within the chip for placing these components.   
+![P16](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/18800d1e-228e-4e2c-93f1-32638d4b31e0)  
+### SKY L2 -Concept of pre-placed cells    
+#### What are Pre-Placed Cells? 
+Pre-placed cells are critical components in a chip design whose placement is fixed before the automated layout process begins.They are typically placed during the "floorplan" stage, which defines the overall layout of the chip.Once placed, these cells stay put while other components (logic cells) are positioned and connected during the "placement and routing" stage.    
+#### Why Pre-Place Cells?  
+***Performance:*** Certain cells impact the chip's speed and reliability. Clock buffers, for example, need to be strategically placed to ensure signals reach all parts of the chip on time. Moving them later could disrupt these timing constraints.  
+***Power Delivery:*** Power and ground connections are vital, and some cells, like decoupling capacitors, help maintain stable voltage levels. Pre-placing them near power-hungry areas ensures efficient power delivery.
+***Physical Constraints:*** Some cells, like large memory blocks or analog circuits, have specific size and shape requirements. Pre-placing them helps avoid conflicts during the layout process.  
+#### Examples of Pre-Placed Cells:
+***Clock Buffers and Clock Muxes:*** These cells distribute and synchronize clock signals throughout the chip. Their precise location is crucial for timing performance.  
+***Memory Blocks (RAM, ROM):*** These are often large and have specific layout requirements. Pre-placing them ensures they fit well and connect efficiently.  
+***I/O Pads:*** These connect the chip to external components. Their placement around the chip's periphery is predefined.  
+***Power Planning Cells:*** Decoupling capacitors, well taps, and power/ground rails are pre-placed to optimize power delivery.  
+***Analog Circuits:*** These may have unique layout constraints that necessitate pre-placement.  
+#### Benefits of Pre-Placed Cells:
+***Predictable Performance:*** By fixing the location of critical cells, designers can ensure predictable timing and power behaviour.
+***Faster Layout:*** The automated placement and routing tools don't waste time trying to fit these cells in, speeding up the layout process.
+***Design Integrity:*** Pre-placement prevents accidental movement of crucial cells, maintaining the design's integrity.  
+![P36](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/339e3e3b-90a7-4779-b443-a84285fc99b3)
+
+#### Imagine a Bakery as a Chip:  
+Think of the chip layout as a bakery floor. Pre-placed cells are like the ovens and large mixing bowls – they have specific locations due to their size and function. The remaining space is where the baker (automated layout tools) arranges the mixing stations, dough prep areas, and other equipment (logic cells) for an efficient workflow.    
+
+### SKY L3 - De-coupling capacitors  
+Decoupling capacitors, also sometimes called bypass capacitors, are tiny workhorses in the world of electronics. Their job is to maintain a steady voltage supply for integrated circuits (ICs) and other components on a circuit board.  
+***Power Delivery Smoothing:***   
+Imagine the power supply as a water pipe. Ideally, you want a constant flow of water pressure for your devices. However, real-world power supplies can have tiny fluctuations or ripples in voltage.  
+***Capacitor as a Reservoir:***   
+Decoupling capacitors act like miniature reservoirs. When the voltage dips slightly, the capacitor releases some of the stored energy to compensate, keeping the voltage level stable for the IC. Conversely, if there's a brief voltage spike, the capacitor absorbs the excess energy, preventing damage to the IC.    
+***Noise Reduction:*** Electronic circuits can generate electrical noise that can interfere with the proper functioning of ICs. Decoupling capacitors act like filters, shunting this high-frequency noise to ground, preventing it from affecting the IC's operation.  
+![P34](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/48ce3231-6131-46e3-9b39-8afe1bb86a7f)  
+
+These capacitors are typically placed very close to the power pins of ICs. This minimizes the distance that current needs to travel, further enhancing their effectiveness.  
+### SKY L4-  Power planning   
+Power planning in chips ensures all parts get a steady voltage. It's like building a power grid on a tiny scale, with rings and grids delivering clean power and preventing glitches.  
+
+![P46](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/294d3468-2209-4c36-a720-ef252e56ca9e)  
+### SKY L5 - Pin placement and logical cell placement blockage   
+Pin placement in chip design is a crucial step that impacts a chip's performance, manufacturability, and overall functionality. It involves strategically positioning the input/output (I/O) pins that connect the chip to the external world.Pin placement is a collaborative effort between chip designers, power planning engineers, and layout specialists. They work together to find the optimal balance between functionality, performance, and manufacturability.  
+![P56](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1e4a4b8e-1f14-403e-8e0c-969dafa73267)  
+### SKY L6 - Steps to run floorplan using OpenLANE after Modification  
+#### Step 1 Update the config.tcl of picorv32a Folder
+ ![P64_parameterSet](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/18d05754-fdb3-425a-93be-a0bf6b2eaa29)
+#### Step 2 RUN docker +  prep -design  +  synthesis  + floorplan
+
+![P66_runDocker_floorplan](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7989eba5-6056-4c01-b03f-434b8dedec18)  
+
+![P66_floorplandone_after Synthesis](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/aa667864-33a4-463e-8dc6-9522ffdfb1ca)  
+### SKY L7 - Review floorplan files and steps to view floorplan  
+
+    ### SKY L8 - Review floorplan layout in Magic
+## SKY130 D2 SK2 - Library Binding and Placement
     SKY L1 - Netlist binding and initial place design 
-    SKY L2 - Optimize placement using estimated wire-length and capacitance 
+    SKY L2 - Optimize placement using estimated wire length and capacitance 
     SKY L3 - Final placement optimization 
     SKY L4 - Need for libraries and characterization 
     SKY L5 - Congestion aware placement using RePlAce 
