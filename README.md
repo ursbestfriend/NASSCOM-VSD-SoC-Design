@@ -140,16 +140,21 @@ Power planning in chips ensures all parts get a steady voltage. It's like buildi
 Pin placement in chip design is a crucial step that impacts a chip's performance, manufacturability, and overall functionality. It involves strategically positioning the input/output (I/O) pins that connect the chip to the external world.Pin placement is a collaborative effort between chip designers, power planning engineers, and layout specialists. They work together to find the optimal balance between functionality, performance, and manufacturability.  
 ![P56](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1e4a4b8e-1f14-403e-8e0c-969dafa73267)  
 ### SKY L6 - Steps to run floorplan using OpenLANE after Modification  
+### SKY L7 - Review floorplan files and steps to view floorplan  
 #### Step 1 Update the config.tcl of picorv32a Folder
  ![P64_parameterSet](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/18d05754-fdb3-425a-93be-a0bf6b2eaa29)
 #### Step 2 RUN docker +  prep -design  +  synthesis  + floorplan
 
 ![P66_runDocker_floorplan](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7989eba5-6056-4c01-b03f-434b8dedec18)  
+![P66_runDocker_synthesis](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e0f89348-fdcf-4854-925e-9bd98666044a)  
+![P67_sky130A_tcl](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9e4de8c4-3b10-43d4-a88d-83bb5e73f5d8)  
+![P69_afterfloorplan_logfiles](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/27724a7e-501b-4b25-85c8-054fbdf85c7d)  
+![P70_afterfloorplan_logfiles_VIDEO](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0c0ff822-b4fc-4a3f-97a6-65ebd96f7239)  
+![P70_afterfloorplan_logfiles_NOUpdate](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8b8323b3-8731-4f70-85ae-08ebc1a03b35)  
 
-![P66_floorplandone_after Synthesis](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/aa667864-33a4-463e-8dc6-9522ffdfb1ca)  
-### SKY L7 - Review floorplan files and steps to view floorplan  
+### SKY L8 - Review floorplan layout in Magic  
 
-    ### SKY L8 - Review floorplan layout in Magic
+
 ## SKY130 D2 SK2 - Library Binding and Placement
     SKY L1 - Netlist binding and initial place design 
     SKY L2 - Optimize placement using estimated wire length and capacitance 
