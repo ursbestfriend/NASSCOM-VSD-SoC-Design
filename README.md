@@ -148,11 +148,23 @@ Pin placement in chip design is a crucial step that impacts a chip's performance
 ![P66_runDocker_floorplan](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7989eba5-6056-4c01-b03f-434b8dedec18)  
 ![P66_runDocker_synthesis](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e0f89348-fdcf-4854-925e-9bd98666044a)  
 ![P67_sky130A_tcl](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9e4de8c4-3b10-43d4-a88d-83bb5e73f5d8)  
-![P69_afterfloorplan_logfiles](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/27724a7e-501b-4b25-85c8-054fbdf85c7d)  
-![P70_afterfloorplan_logfiles_VIDEO](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0c0ff822-b4fc-4a3f-97a6-65ebd96f7239)  
-![P70_afterfloorplan_logfiles_NOUpdate](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8b8323b3-8731-4f70-85ae-08ebc1a03b35)  
+![P71_updated2_BasedPripority_sky130](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0b38bb64-48aa-434a-b730-f4a16ad1fa81)  
+![P71_updated_BasedPripority_sky130](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a164157c-4a95-493d-b560-2660940c14d0)  
 
-### SKY L8 - Review floorplan layout in Magic  
+### SKY L8 - Review floorplan layout in Magic (steps in Descending Order in Image) 
+***magic -T /Home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def***  
+
+![P73_magicLayout_S_V](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/86eb36b7-ec95-40ea-8eff-e4de8bca5018)  
+![P73_magicLayout_mouse](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4e54046a-4208-4761-aae1-9c5daba9cc0c)  
+![P73_A_different_thanVideo2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/85b58f18-46f7-46aa-8586-33db368afb0b)  
+![P73_A_different_thanVideo](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/73acac80-af45-4358-b1f1-562a2cf3995b)  
+![P72_magicTech_mergeLef_cell-tech](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e68a5463-a97f-4501-bce5-cae92e2c1889)  
+![P72_defmagic_open](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/fa4f837d-3a58-4479-a348-b564f9e33c3a)  
+![P72_defmagic_merging](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c1b0f241-126d-4807-b056-7e1542abbd5b)  
+![P72_def_floorplan2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3dd0c00a-6e2c-4e47-989f-c96f32dd7c2d)  
+![P72_def_floorplan](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/aedcebe2-3166-494a-8e44-0a90f2dc2b9e)  
+![P72_def_Area](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3476cb31-d15e-4557-8cd5-fda8221c96f2)  
+![P71_updated2_BasedPripority_sky130](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ca08790a-f0cb-42ff-bfd3-00c47aab4cd0)  
 
 
 ## SKY130 D2 SK2 - Library Binding and Placement
