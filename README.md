@@ -5,7 +5,7 @@ This GitHub repository serves as a comprehensive resource for the VSD Workshop.
 [DAY 2 Good floorplan vs bad floorplan and introduction to library cells](#D2)  
 
 <a id="D1"></a>
-## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK**   
+## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK   
   **SKY130 D1 SK1- How to talk to computers**   
  
 ***SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS***   
@@ -81,11 +81,13 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![tp7c](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/558ee9f7-31d3-4565-a310-5fc569225401)
 #### STEP 7.	RESULTs Folder Path inside Ubuntu
 ![tp8](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/46e60376-12e5-4b6c-b62c-3cb8f7fe131b)
-#### STEP 8.	RESULT of SYNTHESIS, CTS , ROUTING, PLACEMENT, MAGIC
+#### STEP 8.	RESULT of SYNTHESIS, CTS, ROUTING, PLACEMENT, MAGIC
 ![Ttp12](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/91858e16-9608-4a9c-942c-a1d74e30f7e1)
 ![tp11](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/181fa85d-c489-4af0-8691-9d87e9a0cd36)
 ![tp10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/506a4eeb-ae9d-42e6-b7ec-6ad7c261f4cb)
-![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)  
+![tp9](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9ae4ce85-9ac9-4881-bc33-1e4cc0c50127)    
+### Flop Ratio Count
+![flop_ratio](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4d52af77-d347-4295-b463-b030546982c0)
 
 <a id="D2"></a>
 ## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
