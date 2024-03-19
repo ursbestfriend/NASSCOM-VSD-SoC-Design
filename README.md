@@ -186,18 +186,18 @@ Initial place design involves roughly placing the cells on the chip layout. This
 #### SKY L5 - Congestion aware placement using RePlAce  
 **Libraries:**
 Like Lego sets with pre-built components (doors, windows), IC design uses libraries of pre-designed and tested circuit elements called "cells" (gates, flip-flops, etc.).
-These cells are like building blocks that guarantee functionality and save time compared to designing each element from scratch.
+These cells are like building blocks that guarantee functionality and save time compared to designing each element from scratch.  
 **Characterization:**  
 Each Lego brick has a specific size and how it connects. Similarly, cells in libraries need characterization. This involves simulating and understanding how each cell performs under different conditions (speed, power usage).Characterization creates a "model" for each cell, which design tools use to predict how the entire circuit will behave. This ensures the final chip functions correctly and meets performance targets. In short, libraries provide pre-built, reliable components, and characterization tells us exactly how these components behave, allowing designers to efficiently build complex and functional ICs.  
 ![P74_D2_sk3_L1_6](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/217b3003-8aca-4006-967c-c7bdc620d497)   
 ![P74_D2_sk3_L3_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/387f7c6e-4403-4d63-9b32-d253c58d0319)  
-### SKY130 D2 SK3 - Cell design and characterization flows 
-#### SKY L1 - Inputs for cell design flow   
-#### SKY L2 - Circuit design step   
-#### SKY L3 - Layout design step   
-#### SKY L4 - Typical characterization flow  
- ##### Cell Design Flow:
-**Inputs:**
+### SKY130 D2 SK3 - Cell design and characterization flows   
+**SKY L1 - Inputs for cell design flow**     
+**SKY L2 - Circuit design step**     
+**SKY L3 - Layout design step**     
+**SKY L4 - Typical characterization flow**    
+ #### Cell Design Flow:
+**Inputs:**  
 ___**Functionality**: What logic operation should the cell perform (e.g., AND gate, inverter)?  
 ___**Process Design Kit (PDK):** A set of rules and specifications provided by the chip manufacturer, defining how transistors and other elements can be built on the chip.  
 **Circuit Design Step:**  
