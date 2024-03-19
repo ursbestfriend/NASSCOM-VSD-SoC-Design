@@ -3,6 +3,9 @@ VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collabor
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.  
 [DAY 1 Inception of open-source EDA, OpenLANE and Sky130 PDK](#D1)  
 [DAY 2 Good floorplan vs bad floorplan and introduction to library cells](#D2)  
+[DAY 3 Design library cell using Magic Layout and ngspice characterization](#D3)  
+[DAY 4 Pre-layout timing analysis and importance of good clock tree](#D4)  
+[DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA](#D5)  
 
 <a id="D1"></a>
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK   
@@ -222,3 +225,13 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 ![P74_D2_sk4_L2_5](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c7ab2cc5-1450-4ccb-82e2-6fca7360bba9)  
 ![P74_D2_sk4_L2_7](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/cc3fc96c-eea7-4411-983b-667421a54be8)  
 ![P74_D2_sk4_L2_14](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9b6ded2b-aca6-43fd-9137-9f553aadbc21)  
+
+<a id="D3"></a>
+## DAY 3 Design library cell using Magic Layout and ngspice characterization  
+ Coming Soon  
+<a id="D4"></a>
+## DAY 4 Pre-layout timing analysis and importance of good clock tree  
+ Coming Soon  
+<a id="D5"></a>  
+## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA
+Coming Soon  
