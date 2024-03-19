@@ -164,21 +164,61 @@ Pin placement in chip design is a crucial step that impacts a chip's performance
 ![P72_def_floorplan2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3dd0c00a-6e2c-4e47-989f-c96f32dd7c2d)  
 ![P72_def_floorplan](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/aedcebe2-3166-494a-8e44-0a90f2dc2b9e)  
 ![P72_def_Area](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3476cb31-d15e-4557-8cd5-fda8221c96f2)  
-![P71_updated2_BasedPripority_sky130](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ca08790a-f0cb-42ff-bfd3-00c47aab4cd0)  
+![P71_updated2_BasedPripority_sky130](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ca08790a-f0cb-42ff-bfd3-00c47aab4cd0)    
+### SKY130 D2 SK2 - Library Binding and Placement  
+#### SKY L1 - Netlist binding and initial place design  
+#### SKY L2 - Optimize placement using estimated wire length and capacitance  
+#### SKY L3 - Final placement optimization  
+Imagine designing a house. The netlist is like the architectural plan, specifying the rooms and their connections. Library binding is selecting pre-fabricated modules like kitchens, bathrooms, etc., based on the plan. Finally, initial place design is roughly arranging these modules on the building plot.These steps lay the groundwork for the physical design of the chip. They ensure the logic functionality is translated into real hardware components and provide a starting point for optimizing the chip's performance and area usage.  
+**Netlist Binding:**  
+A netlist is a textual representation of your circuit. It describes the connections between different logic elements like gates, flip-flops, etc. Think of it as a blueprint for the logic functionality.  
+![P74_D2_sk2_L1_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3f74102a-dfa1-428e-82ad-48581f8872e0)  
 
+**Library binding** involves mapping the generic elements in the netlist to actual physical components (cells) from a pre-designed library. These libraries are provided by the chip manufacturer and contain information about the functionality, size, and electrical characteristics of each cell.  
+**Netlist binding** the design tool searches the library for cells that match the functionality described in the netlist.It essentially replaces the generic elements with their specific hardware counterparts.   
+![P74_D2_sk2_L1_7](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/723d5b38-ea66-4237-9851-f4cb37d13895)  
 
-## SKY130 D2 SK2 - Library Binding and Placement
-    SKY L1 - Netlist binding and initial place design 
-    SKY L2 - Optimize placement using estimated wire length and capacitance 
-    SKY L3 - Final placement optimization 
-    SKY L4 - Need for libraries and characterization 
-    SKY L5 - Congestion aware placement using RePlAce 
-### SKY130 D2 SK3 - Cell design and characterization flows
-    SKY L1 - Inputs for cell design flow 
-    SKY L2 - Circuit design step 
-    SKY L3 - Layout design step 
-    SKY L4 - Typical characterization flow 
-### SKY130 D2 SK4 - General timing characterization parameters
-    SKY L1 - Timing threshold definitions 
-    SKY L2 - Propagation delay and transition time 
+**Initial Place Design:**  
+After binding the netlist to library cells, the next step is to figure out where to physically place these cells on the chip. This initial placement is crucial because it can significantly impact factors like performance, power consumption, and routability (ease of connecting cells with wires).  
+Initial place design involves roughly placing the cells on the chip layout. This placement might not be optimal at this stage, but it serves as a starting point for further refinement in later design stages.  
+![P74_D2_sk2_L1_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a87f22b6-dee0-41bb-be24-28d46089558f)    
+#### SKY L4 - Need for libraries and characterization  
+#### SKY L5 - Congestion aware placement using RePlAce  
+**Libraries:**
+Like Lego sets with pre-built components (doors, windows), IC design uses libraries of pre-designed and tested circuit elements called "cells" (gates, flip-flops, etc.).
+These cells are like building blocks that guarantee functionality and save time compared to designing each element from scratch.
+**Characterization:**  
+Each Lego brick has a specific size and how it connects. Similarly, cells in libraries need characterization. This involves simulating and understanding how each cell performs under different conditions (speed, power usage).Characterization creates a "model" for each cell, which design tools use to predict how the entire circuit will behave. This ensures the final chip functions correctly and meets performance targets. In short, libraries provide pre-built, reliable components, and characterization tells us exactly how these components behave, allowing designers to efficiently build complex and functional ICs.  
+![P74_D2_sk3_L1_6](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/217b3003-8aca-4006-967c-c7bdc620d497)   
+![P74_D2_sk3_L3_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/387f7c6e-4403-4d63-9b32-d253c58d0319)  
+### SKY130 D2 SK3 - Cell design and characterization flows 
+#### SKY L1 - Inputs for cell design flow   
+#### SKY L2 - Circuit design step   
+#### SKY L3 - Layout design step   
+#### SKY L4 - Typical characterization flow  
+ ##### Cell Design Flow:
+**Inputs:**
+___**Functionality**: What logic operation should the cell perform (e.g., AND gate, inverter)?  
+___**Process Design Kit (PDK):** A set of rules and specifications provided by the chip manufacturer, defining how transistors and other elements can be built on the chip.  
+**Circuit Design Step:**  
+___**Schematic capture:** Using a tool, designers create a symbolic representation of the cell's circuit with transistors and connections.  
+___**Simulation:** The circuit is simulated to verify its functionality under different conditions.    
+**Layout Design Step:**  
+__**Place and Route (PnR):** The transistors and connections are arranged on the chip layout, ensuring proper spacing and connections between them.  
+__**Design Rule Check (DRC):** Ensures the layout meets the PDK rules to guarantee manufacturability.  
+__**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflects the original schematic.    
+![P74_D2_sk3_L2_10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/63855f07-451e-4f9c-bc1e-c569490a04d2)  
+![P74_D2_sk3_L2_13](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/72ed3cea-6c9e-4d98-9b69-7f2c00420a24)  
+![P74_D2_sk3_L2_17](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9fedbbdf-47f1-477e-8f91-819d4ecf42f9)  
+![P74_D2_sk3_L3_16](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49843f62-51b5-4e35-baae-bd4d2f9f2d00)
 
+### SKY130 D2 SK4 - General timing characterization parameters  
+#### SKY L1 - Timing threshold definitions  
+#### SKY L2 - Propagation delay and transition time  
+ Designing a chip is like building a miniature race track for electrical signals. Cell characterization is key to understanding how fast these signals travel.  Just like on a race track, we define parameters to measure performance. Propagation delay (tpd) is the time it takes a signal to cross the finish line (output) after the starting flag (input) changes. Transition time (ttr) is how long it takes the signal to accelerate between voltage levels.  For a successful race, the driver needs a good head start. Similarly, setup time (tsu) defines the minimum time the input signal needs to be stable before the go signal (clock edge) arrives for the output to be valid. Hold time (th) is like the driver needing to stay put for a moment after the start to ensure a smooth transition.  Timing thresholds define the voltage levels that signify valid 0s and 1s on the track. By characterizing cells with these parameters, designers can ensure signals travel quickly and arrive at the right time, keeping your electronic device running like a well-oiled racing machine!  
+
+![P74_D2_sk4_L1_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7a75c81b-9bde-4085-9962-0413d7423e0c)  
+![P74_D2_sk4_L2_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/967e6c74-5e26-42fa-81e2-74a98786dc01)  
+![P74_D2_sk4_L2_5](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c7ab2cc5-1450-4ccb-82e2-6fca7360bba9)  
+![P74_D2_sk4_L2_7](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/cc3fc96c-eea7-4411-983b-667421a54be8)  
+![P74_D2_sk4_L2_14](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9b6ded2b-aca6-43fd-9137-9f553aadbc21)  
