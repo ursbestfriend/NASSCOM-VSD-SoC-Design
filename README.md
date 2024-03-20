@@ -233,7 +233,9 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 #### SKY L1- SPICE deck creation for CMOS inverter   
 #### SKY L2 - SPICE simulation lab for CMOS inverter   
 #### SKY L3 - Switching Threshold Vm
-SPICE (Simulation Program with Integrated Circuit Emphasis) allows us to simulate the behavior of electronic circuits. Here's a breakdown of creating a SPICE deck for a CMOS inverter:  
+SPICE (Simulation Program with Integrated Circuit Emphasis) allows us to simulate the behavior of electronic circuits. Here's a breakdown of creating a SPICE deck for a CMOS inverter: 
+
+
 **1. Model Selection:**  
 Include the model files for the NMOS and PMOS transistors used in the inverter. These files describe the electrical characteristics of the transistors based on a specific technology process. Common model formats include BSIM or PSPICE.  
 **Example:**  
