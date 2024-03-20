@@ -228,7 +228,35 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 
 <a id="D3"></a>
 ## DAY 3 Design library cell using Magic Layout and ngspice characterization  
- Coming Soon  
+### SKY130 03 SK1 - Labs for CMOS inverter ngspice simulations   
+#### SKY L0 - I0 placer revision   
+#### SKY L1- SPICE deck creation for CMOS inverter   
+#### SKY L2 - SPICE simulation lab for CMOS inverter   
+#### SKY L3 - Switching Threshold Vm   
+#### SKY L4 - Static and dynamic simulation of CMOS inverter   
+#### SKY L5 - Lab steps to git clone vsdstdcelldesign  
+
+### SKY130 03 SK2 • Inception of Layout A CMOS fabrication process    
+#### SKY Ll - Create Active regions   
+#### SKY L2 - Formation of N-well and P- well   
+#### SKY L3 - Formation of gate terminal Lightly doped drain (LDD)   
+#### SKY L4- formation SKY LS- Source A, A- drain formation   
+#### SKY L6 - Local interconnect formation   
+#### SKY L7 - Higher level metal formation   
+#### SKY L8 - Lab introduction to Sky130 basic layers layout and LEF using inverter   
+#### SKY L9 - Lab steps to create std cell layout and extract spice netlist  
+
+### SKY130 03 SK3 - Sky130 Tech File Labs  
+#### SKY L1 - Lab steps to create final SPICE deck using Sky130 tech   
+#### SKY L2 - Lab steps to characterize inverter using sky130 model files   
+#### SKY L3 - Lab introduction to Magic tool options and DRC rules   
+#### SKY L4 - Lab introduction to Sky130 pdk's and steps to download labs   
+#### SKY LS - Lab introduction to Magic and steps to load Sky130 tech-rules   
+#### SKY L6 - Lab exercise to fix poly.9 error in Sky130 tech-file   
+#### SKY L7 - Lab exercise to implement poly resistor spacing to diff and tap  
+#### SKY L8 - Lab challenge exercise to describe ORC error as geometrical construct   
+#### SKY L9 - Lab challenge to find missing or incorrect rules and fix them  
+  
 <a id="D4"></a>
 ## DAY 4 Pre-layout timing analysis and importance of good clock tree  
  Coming Soon  
