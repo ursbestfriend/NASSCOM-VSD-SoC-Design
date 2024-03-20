@@ -232,7 +232,53 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 #### SKY L0 - I0 placer revision   
 #### SKY L1- SPICE deck creation for CMOS inverter   
 #### SKY L2 - SPICE simulation lab for CMOS inverter   
-#### SKY L3 - Switching Threshold Vm   
+#### SKY L3 - Switching Threshold Vm
+SPICE (Simulation Program with Integrated Circuit Emphasis) allows us to simulate the behavior of electronic circuits. Here's a breakdown of creating a SPICE deck for a CMOS inverter:  
+**1. Model Selection:**  
+Include the model files for the NMOS and PMOS transistors used in the inverter. These files describe the electrical characteristics of the transistors based on a specific technology process. Common model formats include BSIM or PSPICE.
+**Example:**  
+
+.model NMOS nmos_model LEVEL=4 (model parameters...)  
+.model PMOS pmos_model LEVEL=4 (model parameters...)  
+**2. Device Definition:**  
+
+Define the NMOS and PMOS transistors with their sizes (width W and length L) and connection points.  
+**Example:**
+
+M1 out in gnd gnd NMOS W=1u L=0.5u  ; NMOS transistor  
+M2 vdd in out vdd PMOS W=2u L=0.5u  ; PMOS transistor  
+**3. Power Supply and Ground:**  
+
+Define voltage sources for the power supply (VDD) and ground (GND).  
+**Example:**
+
+Vdd vdd 0 DC 5V  ; Power supply voltage source  
+Vss gnd 0 DC 0V  ; Ground voltage source  
+**4. Input Stimulus (Optional):**  
+
+Include a voltage source or pulse source to define the input signal applied to the inverter.  
+**Example:**  
+
+Vin in 0 PULSE(0 5 0ns 1ns 1ns 10ns) ; Pulse input signal  
+**5. Simulation Directives:**  
+
+Specify the simulation type (e.g., transient analysis) and desired output (e.g., node voltages).  
+**Example:**  
+
+.tran 1ns 100ns  ; Transient analysis from 1ns to 100ns  
+.print DC V(out) V(in) ; Print DC and transient voltages at output and input  
+.plot DC V(out) V(in) ; Plot DC and transient transfer characteristics  
+.end  
+![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
+![d3_sk1_l0_6_spiceExtraction3_BOX](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a1d52d4f-2a0b-4ca2-a53a-095aa0811aca)  
+![d3_sk1_l0_6_spiceExtraction2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9bbf5823-5b5b-4798-9d44-c301714a2f0d)  
+![d3_sk1_l0_6_spiceExtraction](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/048dd7d2-eb3d-43b7-ac78-b361b19e1b25)  
+![d3_sk1_l0_5_cloneVSDstdcelldesign2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d898f4d1-8133-405b-a3d3-17851e3e2ae2)  
+![d3_sk1_l0_5_cloneVSDstdcelldesign](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d35f67b6-d8a4-422d-a5ef-c5972c729735)  
+![d3_sk1_l0_5_clone_inverInMagic2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1e3b6fe6-65ba-4c7e-8398-3905edbfb375)  
+![d3_sk1_l0_5_clone_inverInMagic](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a5b720a0-0bc2-4721-a056-71b70fe3690b)  
+
+
 #### SKY L4 - Static and dynamic simulation of CMOS inverter   
 #### SKY L5 - Lab steps to git clone vsdstdcelldesign  
 
