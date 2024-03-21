@@ -370,18 +370,63 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_187](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a2d99fde-10af-47da-8bd5-68f41dd0cab8)
 ![d3_190](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0cb6bc82-df86-4b75-bddf-87191cc55f54)  
 
-
-
 ### SKY130 03 SK3 - Sky130 Tech File Labs  
-#### SKY L1 - Lab steps to create final SPICE deck using Sky130 tech   
-#### SKY L2 - Lab steps to characterize inverter using sky130 model files   
-#### SKY L3 - Lab introduction to Magic tool options and DRC rules   
-#### SKY L4 - Lab introduction to Sky130 pdk's and steps to download labs   
-#### SKY LS - Lab introduction to Magic and steps to load Sky130 tech-rules   
-#### SKY L6 - Lab exercise to fix poly.9 error in Sky130 tech-file   
-#### SKY L7 - Lab exercise to implement poly resistor spacing to diff and tap  
-#### SKY L8 - Lab challenge exercise to describe ORC error as geometrical construct   
-#### SKY L9 - Lab challenge to find missing or incorrect rules and fix them  
+####  Lab steps to create final SPICE deck using Sky130 tech, Lab steps to characterize inverter using sky130 model files, Lab introduction to Magic tool options and DRC rules, Lab introduction to Sky130 pdk's and steps to download labs,Lab introduction to Magic and steps to load Sky130 tech-rules, Lab exercise to fix poly.9 error in Sky130 tech-file,Lab exercise to implement poly resistor spacing to diff and tap, Lab challenge exercise to describe DRC error as a geometrical construct, Lab challenge to find missing or incorrect rules and fix them.  
+
+-   **Lab steps to create final SPICE deck using Sky130 tech:**
+
+-   Define circuit schematic with inverter components.
+
+-   Include Sky130 model file references for transistors.
+
+-   Set simulation parameters (voltage sources, sweep ranges).
+
+-   Verify netlist generation and format for SPICE simulation tools.
+
+-   **Lab steps to characterize inverter using Sky130 model files:**
+
+-   Run SPICE simulations of the inverter circuit.
+
+-   Analyze output characteristics (DC transfer function, transient
+    response).
+
+-   Extract key inverter parameters (noise margin, propagation delay).
+
+-   Compare results with theoretical expectations and model
+    specifications.
+
+-   **Lab introduction to Magic tool options and DRC rules:**
+
+-   Explore Magic user interface and basic drawing functionalities.
+
+-   Learn about design rule checking (DRC) for layout verification.
+
+-   Understand different DRC categories (spacing, width, well
+    placement).
+
+-   Utilize DRC features within Magic to identify and fix layout errors.
+
+-   Understand the concept of Process Design Kits (PDKs).
+
+-   Explore Sky130 PDK content (technology rules, model files, layout
+    examples).
+
+-   **Lab introduction to Magic and steps to load Sky130 tech-rules:**
+
+-   Launch Magic layout editor software.
+
+-   Load Sky130 PDK technology file containing design rules.
+
+-   Set up drawing layers and styles according to PDK specifications.
+
+-   Familiarize with basic layout editing commands in Magic.
+
+-   **Lab exercise to fix poly.9 error in Sky130 tech-file , implement
+    poly resistor spacing to diff and tap, describe ORC error as a
+    geometrical construct, find missing or incorrect rules and fix
+    them:**
+
+
   
 <a id="D4"></a>
 ## DAY 4 Pre-layout timing analysis and importance of good clock tree  
