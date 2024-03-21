@@ -301,44 +301,67 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ### SKY130 03 SK2 • Inception of Layout A CMOS fabrication process 
 #### Create Active regions, Formation of N-well and P- well,Formation of gate terminal Lightly doped drain (LDD),formation SKY LS- Source A, A- drain formation,Local interconnect formation,Higher level metal formation,Lab introduction to Sky130 basic layers layout and LEF using inverter,Lab steps to create std cell layout and extract spice netlist   
 
+**Substrate Preparation:**  
+
 1.  **Silicon Wafer Cleaning:** Remove impurities from the silicon wafer
     surface.
+
 2.  **Thermal Oxidation:** Grow a thin layer of silicon dioxide (SiO2)
-    on the wafer for isolation and gate oxide.
+    on the wafer for isolation and gate oxide.  
+
 **Well and Active Area Formation:**
+
 3.  **Well Implantation:** Implant dopant ions (Boron for p-well) to
     create a p-type region for the PMOS transistor.
+
 4.  **Well Drive-in:** Diffuse the dopant ions deeper for better
     electrical characteristics.
+
 5.  **Shallow Trench Isolation (STI):** Create trenches around active
-    areas to isolate transistors electrically.
-**Gate Stack Formation:**
+    areas to isolate transistors electrically.  
+
+**Gate Stack Formation:**  
+
 6.  **Polysilicon Deposition:** Deposit a thin layer of polysilicon for
     transistor gates.
+
 7.  **Polysilicon Patterning:** Define the gate patterns using
-    photolithography and etching.
-**Doping and Channel Formation:**
+    photolithography and etching.  
+
+**Doping and Channel Formation:**  
+
 8.  **NMOS Threshold Adjust Implant:** Implant dopant ions (Arsenic or
     Phosphorus) to adjust the threshold voltage of the NMOS transistor.
+
 9.  **PMOS Channel Implant:** Implant dopant ions (Boron) to create the
     channel region of the PMOS transistor.
+
 10. **Channel Annealing:** Activate the dopant ions implanted in steps 8
-    and 9.
-**Source/Drain Formation:**
+    and 9.  
+
+**Source/Drain Formation:**  
+
 11. **Shallow Source/Drain Implant (NMOS):** Implant dopant ions
     (Arsenic or Phosphorus) to create the source and drain regions of
     the NMOS transistor.
+
 12. **Shallow Source/Drain Implant (PMOS):** Implant dopant ions (Boron)
     to create the source and drain regions of the PMOS transistor.
+
 13. **S/D Extension Implant (Optional):** Implant additional dopant ions
-    to reduce source/drain resistance.
-**Contact and Metallization:**
+    to reduce source/drain resistance.  
+
+**Contact and Metallization:**  
+
 14. **Contact Hole Etching:** Etch holes through the gate oxide to
     connect gates to source/drain regions.
+
 15. **Metal Deposition:** Deposit metal layers (e.g., aluminum) for
     interconnects and transistor connections.
+
 16. **Metal Patterning:** Define metal patterns using photolithography
     and etching.
+
  ![d3_73](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/636900bb-d9e1-4c14-a7b3-71eb5b0d68a6)  
 ![d3_78](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f6cd2843-20dd-4f54-864d-3c45550e3330)  
 ![d3_99](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/228801fe-97aa-464d-a672-d66610b4b0d0)  
