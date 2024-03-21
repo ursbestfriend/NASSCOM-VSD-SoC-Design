@@ -393,8 +393,18 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 -   Extract key inverter parameters (noise margin, propagation delay).
 
 -   Compare results with theoretical expectations and model
-    specifications.
-
+    specifications.  
+![d3_192_31](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/011862c8-0d32-4bda-87d2-ecb164d2ea54)  
+![d3_192_30](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/854e976d-2618-4a90-9335-d045325769a1)  
+![d3_192_29](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7be22891-8b95-4dfa-ad8e-3f44ea2c1b31)  
+![d3_192_28](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3c1fcfb9-56d1-4757-9dd9-edaefc26c0b3)  
+![d3_192_27](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/144663a6-4764-4c63-91a3-06e0c4c91dc6)  
+![d3_192_26](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/52c9d995-04ef-4baf-b098-6014fe532649)  
+![d3_192_25](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ddf601c1-e956-4776-afac-d244944a1039)  
+![d3_192_24](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c554445d-1ef7-4d09-9372-5a5a40d02a38)  
+![d3_192_33](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d7ab223e-78bd-4804-a1a4-fb504b76a3f2)  
+![d3_192_32](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e5587690-ca93-4a59-979e-6cb21544faea)  
+ 
 -   **Lab introduction to Magic tool options and DRC rules:**
 
 -   Explore Magic user interface and basic drawing functionalities.
@@ -411,6 +421,10 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 -   Explore Sky130 PDK content (technology rules, model files, layout
     examples).
 
+![d3_192_3a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/48cd7be5-d913-43e5-9695-d44e41aeb102)  
+![d3_192_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/77068cbc-fa82-472f-91ce-6027a6f79d31)  
+
+
 -   **Lab introduction to Magic and steps to load Sky130 tech-rules:**
 
 -   Launch Magic layout editor software.
@@ -420,12 +434,10 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 -   Set up drawing layers and styles according to PDK specifications.
 
 -   Familiarize with basic layout editing commands in Magic.
-
--   **Lab exercise to fix poly.9 error in Sky130 tech-file , implement
-    poly resistor spacing to diff and tap, describe ORC error as a
-    geometrical construct, find missing or incorrect rules and fix
-    them:**
-
+![d3_192_16](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/828d0a15-4411-4642-8ec0-1a2079dc4310)  
+![d3_192_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2dfadfff-5c2a-46f9-a2c7-485b3a06d3f2)  
+![d3_192_18](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/73711053-dc07-45c0-b821-29c1f9c8903e)  
+![d3_192_17](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c462b6ef-f635-4f7f-8665-711d7563731e)  
 
   
 <a id="D4"></a>
