@@ -371,7 +371,7 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_190](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0cb6bc82-df86-4b75-bddf-87191cc55f54)  
 
 ### SKY130 03 SK3 - Sky130 Tech File Labs  
-####  Lab steps to create final SPICE deck using Sky130 tech, Lab steps to characterize inverter using sky130 model files, Lab introduction to Magic tool options and DRC rules, Lab introduction to Sky130 pdk's and steps to download labs,Lab introduction to Magic and steps to load Sky130 tech-rules, Lab exercise to fix poly.9 error in Sky130 tech-file,Lab exercise to implement poly resistor spacing to diff and tap, Lab challenge exercise to describe DRC error as a geometrical construct, Lab challenge to find missing or incorrect rules and fix them.  
+####  Lab steps to create final SPICE deck using Sky130 tech, Lab steps to characterize inverter using sky130 model files, Lab introduction to Magic tool options and DRC rules, Lab introduction to Sky130 pdk's and steps to download labs,Lab introduction to Magic and steps to load Sky130 tech-rules
 
 -   **Lab steps to create final SPICE deck using Sky130 tech:**
 
