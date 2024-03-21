@@ -229,12 +229,20 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 <a id="D3"></a>
 ## DAY 3 Design library cell using Magic Layout and ngspice characterization  
 ### SKY130 03 SK1 - Labs for CMOS inverter ngspice simulations   
-#### SKY L0 - I0 placer revision   
-#### SKY L1- SPICE deck creation for CMOS inverter   
-#### SKY L2 - SPICE simulation lab for CMOS inverter   
-#### SKY L3 - Switching Threshold Vm
-SPICE (Simulation Program with Integrated Circuit Emphasis) allows us to simulate the behavior of electronic circuits. Here's a breakdown of creating a SPICE deck for a CMOS inverter: 
+#### SKY L0 - I0 placer revision     
+ *Before FP IPIO set to value 1 = equidistance pin*  
+![d3_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f65e8be4-bb85-4f5b-bfb8-59cb7bb5d65f)  
+*After FP IPIO is set to value 2*   
+![d3_6](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5b52b0bf-8c53-47d9-8436-3dd383b03cd8)    
+![d3_8](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/57c3a592-0a69-49d5-b938-a2aee98e50b4)    
+![d3_14](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8b6f5807-ef39-42d2-b9dc-4f1636c86881)
+![d3_11](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c38bdfbe-213b-4f91-bfd4-e4df531e4532)  
+#### SKY L1- SPICE deck creation for CMOS inverter  
+ ![d3_24](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/48c08790-5190-4f2a-94be-1a5ff764a44b)
 
+#### SKY L2 - SPICE simulation lab for CMOS inverter  
+ #### SKY L3 - Switching Threshold Vm ; Lab steps to git clone vsdstdcelldesign  
+SPICE (Simulation Program with Integrated Circuit Emphasis) allows us to simulate the behaviour of electronic circuits. Here's a breakdown of creating a SPICE deck for a CMOS inverter: 
 
 **1. Model Selection:**  
 Include the model files for the NMOS and PMOS transistors used in the inverter. These files describe the electrical characteristics of the transistors based on a specific technology process. Common model formats include BSIM or PSPICE.  
@@ -282,19 +290,64 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
 ![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
 
-
 #### SKY L4 - Static and dynamic simulation of CMOS inverter   
-#### SKY L5 - Lab steps to git clone vsdstdcelldesign  
+*Static Simulation*  
+![d3_47](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ffe85724-0c61-4012-81dc-65fb9ec87106)  
+*Dynamic simulation*
+![d3_61](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/33ebd80d-97ad-44e1-81d3-f05b53465bd3)  
+![d3_61a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d290e5b0-ef7a-4283-a5b6-402b6bb3fd0f)  
+![d3_64](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5183c24f-5c34-40ab-acf3-7c32b4cabe51)  
 
-### SKY130 03 SK2 • Inception of Layout A CMOS fabrication process    
-#### SKY Ll - Create Active regions   
-#### SKY L2 - Formation of N-well and P- well   
-#### SKY L3 - Formation of gate terminal Lightly doped drain (LDD)   
-#### SKY L4- formation SKY LS- Source A, A- drain formation   
-#### SKY L6 - Local interconnect formation   
-#### SKY L7 - Higher level metal formation   
-#### SKY L8 - Lab introduction to Sky130 basic layers layout and LEF using inverter   
-#### SKY L9 - Lab steps to create std cell layout and extract spice netlist  
+### SKY130 03 SK2 • Inception of Layout A CMOS fabrication process 
+#### Create Active regions, Formation of N-well and P- well,Formation of gate terminal Lightly doped drain (LDD),formation SKY LS- Source A, A- drain formation,Local interconnect formation,Higher level metal formation,Lab introduction to Sky130 basic layers layout and LEF using inverter,Lab steps to create std cell layout and extract spice netlist   
+
+1.  **Silicon Wafer Cleaning:** Remove impurities from the silicon wafer
+    surface.
+2.  **Thermal Oxidation:** Grow a thin layer of silicon dioxide (SiO2)
+    on the wafer for isolation and gate oxide.
+**Well and Active Area Formation:**
+3.  **Well Implantation:** Implant dopant ions (Boron for p-well) to
+    create a p-type region for the PMOS transistor.
+4.  **Well Drive-in:** Diffuse the dopant ions deeper for better
+    electrical characteristics.
+5.  **Shallow Trench Isolation (STI):** Create trenches around active
+    areas to isolate transistors electrically.
+**Gate Stack Formation:**
+6.  **Polysilicon Deposition:** Deposit a thin layer of polysilicon for
+    transistor gates.
+7.  **Polysilicon Patterning:** Define the gate patterns using
+    photolithography and etching.
+**Doping and Channel Formation:**
+8.  **NMOS Threshold Adjust Implant:** Implant dopant ions (Arsenic or
+    Phosphorus) to adjust the threshold voltage of the NMOS transistor.
+9.  **PMOS Channel Implant:** Implant dopant ions (Boron) to create the
+    channel region of the PMOS transistor.
+10. **Channel Annealing:** Activate the dopant ions implanted in steps 8
+    and 9.
+**Source/Drain Formation:**
+11. **Shallow Source/Drain Implant (NMOS):** Implant dopant ions
+    (Arsenic or Phosphorus) to create the source and drain regions of
+    the NMOS transistor.
+12. **Shallow Source/Drain Implant (PMOS):** Implant dopant ions (Boron)
+    to create the source and drain regions of the PMOS transistor.
+13. **S/D Extension Implant (Optional):** Implant additional dopant ions
+    to reduce source/drain resistance.
+**Contact and Metallization:**
+14. **Contact Hole Etching:** Etch holes through the gate oxide to
+    connect gates to source/drain regions.
+15. **Metal Deposition:** Deposit metal layers (e.g., aluminum) for
+    interconnects and transistor connections.
+16. **Metal Patterning:** Define metal patterns using photolithography
+    and etching.
+ ![d3_73](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/636900bb-d9e1-4c14-a7b3-71eb5b0d68a6)  
+![d3_78](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f6cd2843-20dd-4f54-864d-3c45550e3330)  
+![d3_99](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/228801fe-97aa-464d-a672-d66610b4b0d0)  
+![d3_150](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8968a2b4-d240-4533-bbf0-139898aab983)  
+![d3_156](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/30d3fb53-efbf-4c25-8b6a-5a0ee4b37bd2)   
+![d3_187](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a2d99fde-10af-47da-8bd5-68f41dd0cab8)
+![d3_190](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0cb6bc82-df86-4b75-bddf-87191cc55f54)  
+
+
 
 ### SKY130 03 SK3 - Sky130 Tech File Labs  
 #### SKY L1 - Lab steps to create final SPICE deck using Sky130 tech   
