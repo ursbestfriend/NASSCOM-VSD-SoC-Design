@@ -230,9 +230,9 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 ## DAY 3 Design library cell using Magic Layout and ngspice characterization  
 ### SKY130 03 SK1 - Labs for CMOS inverter ngspice simulations   
 #### SKY L0 - I0 placer revision     
- *Before FP IPIO set to value 1 = equidistance pin*  
+ *Before FP IO set to value 1 = equidistance pin*  
 ![d3_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f65e8be4-bb85-4f5b-bfb8-59cb7bb5d65f)  
-*After FP IPIO is set to value 2*   
+*After FP IO is set to value 2*   
 ![d3_6](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5b52b0bf-8c53-47d9-8436-3dd383b03cd8)    
 ![d3_8](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/57c3a592-0a69-49d5-b938-a2aee98e50b4)    
 ![d3_14](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8b6f5807-ef39-42d2-b9dc-4f1636c86881)
