@@ -328,6 +328,9 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 .print DC V(out) V(in) ; Print DC and transient voltages at output and input  
 .plot DC V(out) V(in) ; Plot DC and transient transfer characteristics  
 .end  
+**OPEN CMOS INVERTER IN MAGIC**
+![d3_192a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d03fdeda-026b-44cf-a6c3-eaf5ba125af4)
+
 
 ![d3_sk1_l0_5_clone_inverInMagic](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a5b720a0-0bc2-4721-a056-71b70fe3690b)  
 ![d3_sk1_l0_5_clone_inverInMagic2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1e3b6fe6-65ba-4c7e-8398-3905edbfb375)  
