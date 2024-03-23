@@ -511,8 +511,7 @@ the blueprints for complex microchips.
 
 -   Ease of use: Many find it to be a user-friendly tool for circuit
     layout, even if they use commercial tools for final designs.
-
-![d3_192_41a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d3d3aa65-cc4f-4306-af4d-b685996dafb3)  
+ 
 ![d3_192_44b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7ac29d5d-145e-4fe2-bd04-c8a001043ede)  
 ![d3_192_44a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f7370f43-1c42-4b70-895c-61135b110f6f)  
 ![d3_192_58](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5e1ca9bf-21c2-400d-892e-6d021c75a85e)  
@@ -528,7 +527,81 @@ the blueprints for complex microchips.
   
 <a id="D4"></a>
 ## DAY 4 Pre-layout timing analysis and importance of good clock tree  
- Coming Soon  
+ **Pre-layout Timing Analysis and Importance of a Good Clock Tree in
+OpenLANE**
+
+This focuses on analyzing timing before the actual layout is created and
+emphasizes the importance of a well-designed clock tree for optimal
+performance.
+
+1.  **Timing modelling using delay tables:**
+
+-   These tables define the delays experienced by signals based on
+    factors like net length, fanout (number of connected gates), and
+    cell type.
+
+-   OpenLANE likely uses pre-characterized delay tables from the
+    foundry\'s Process Design Kit (PDK).
+
+2.  **Convert grid info to track info:** (Assuming Magic layout tool is
+    used)
+
+-   Magic uses a grid system for layout design.
+
+-   This step translates the grid information from Magic into routing
+    track information for OpenLANE\'s understanding.
+
+-   Tracks define the actual routing paths available for signals in the
+    final chip layout.
+
+3.  **Convert magic layout to std cell LEF:**
+
+-   Magic layout files describe the physical design of the circuit.
+
+-   LEF (Layout Exchange Format) is an industry-standard file format for
+    representing standard cell information.
+
+-   This step converts the Magic layout of custom cells into a standard
+    cell LEF that OpenLANE can understand and integrate into the design.
+
+4.  **Timing libraries (libs) and steps to include new cell in
+    synthesis:**
+
+-   Timing libraries contain information about the timing
+    characteristics of standard cells in the design.
+
+-   To include a new custom cell, you\'ll likely need to:
+
+-   Create a Liberty (.lib) file characterizing the cell\'s timing
+    behavior.
+
+-   Update OpenLANE\'s configuration to include the new cell LEF and
+    Liberty files.
+
+-   Re-run synthesis to ensure the new cell is included in the design.
+
+5.  **Configure synthesis settings to fix slack and include vsdinv:**
+
+-   Slack refers to the difference between the available time for a
+    signal to reach its destination and the actual time it takes.
+    Negative slack indicates a timing violation.
+
+-   Synthesis settings in OpenLANE can be adjusted to influence cell
+    selection and placement, potentially improving slack.
+
+-   Vsdinv (Vendor Standard Delay Inverter) might be a setting or script
+    that utilizes a specific standard cell inverter for timing analysis
+    during synthesis.
+
+**Importance of a Good Clock Tree:**
+
+-   The clock tree distributes the clock signal to all parts of the
+    design with minimal skew (delay variation).
+
+-   A well-designed clock tree ensures that all flip-flops (registers)
+    receive the clock signal at nearly the same time, avoiding timing
+    violations and enabling reliable operation.
+
 <a id="D5"></a>  
 ## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA
 Coming Soon  
