@@ -59,6 +59,8 @@ Imagine writing instructions for a robot. That's what programmers do when they c
 ***SKY L5 - Steps to characterize synthesis results***
 <a id="Topic"></a> 
 ### OPENLANE ASIC FLOW | Transform your RTL code to GDSII 
+![16](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1a4de7a8-65be-49d4-aea4-81129cd75dcc)  
+
 ![42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e3e50092-f4ae-400e-9a25-885c6811a433)
 
 ### Follow the below commands in sequence to generate RESULTS AND REPORTS:
@@ -229,6 +231,51 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 <a id="D3"></a>
 ## DAY 3 Design library cell using Magic Layout and ngspice characterization  
 ### SKY130 03 SK1 - Labs for CMOS inverter ngspice simulations   
+
+The CMOS inverter, short for Complementary Metal-Oxide-Semiconductor
+inverter, is a fundamental building block in modern digital circuits. It
+acts as a NOT gate, essentially flipping the input signal. But what
+makes it special? Let\'s delve into its core components and the reasons
+behind its dominance in chip design.
+
+**The Power of Two: NMOS and PMOS Transistors**
+
+A CMOS inverter consists of two types of transistors: the NMOS
+(N-channel Metal-Oxide-Semiconductor) and the PMOS (P-channel
+Metal-Oxide-Semiconductor). Imagine these transistors as switches
+controlled by voltage. An NMOS conducts electricity effectively when a
+positive voltage is applied to its gate relative to its source.
+Conversely, a PMOS conducts when a negative voltage is applied to its
+gate.
+
+**The Logic Behind the Flip**
+
+The beauty of the CMOS inverter lies in how these NMOS and PMOS
+transistors are connected. Their gates are tied together, receiving the
+same input voltage. Their drain terminals connect to a common point,
+forming the output. Finally, the source of the NMOS connects to ground
+(0V), while the source of the PMOS connects to the power supply (VDD).
+
+When a low voltage (close to 0V) is applied as input, the NMOS conducts,
+pulling the output down to ground (representing a logic 0). Conversely,
+with a high voltage (close to VDD) as input, the PMOS conducts, pulling
+the output up to VDD (representing a logic 1). This creates a clear
+inversion of the input signal.
+
+**Why CMOS Reigns Supreme**
+
+-   **Low Power Consumption:** Unlike traditional inverters that
+    constantly draw current, a CMOS inverter only consumes power during
+    switching. When the output is stable (high or low), neither
+    transistor conducts, minimizing power usage.
+
+-   **High Noise Immunity:** The clear voltage levels (VDD and ground)
+    used in CMOS make it resistant to noise and interference. This
+    ensures reliable operation even in noisy environments.
+
+-   **Scalability:** The CMOS design allows for miniaturization of
+    transistors, enabling denser and more powerful integrated circuits.
+
 #### SKY L0 - I0 placer revision     
  *Before FP IO set to value 1 = equidistance pin*  
 ![d3_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f65e8be4-bb85-4f5b-bfb8-59cb7bb5d65f)  
