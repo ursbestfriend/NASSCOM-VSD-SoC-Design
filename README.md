@@ -512,7 +512,6 @@ the blueprints for complex microchips.
 -   Ease of use: Many find it to be a user-friendly tool for circuit
     layout, even if they use commercial tools for final designs.
 
-![d3_192_37](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8dc3e684-bc4a-40a1-99b4-1cf885acb456)  
 ![d3_192_41a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d3d3aa65-cc4f-4306-af4d-b685996dafb3)  
 ![d3_192_44b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7ac29d5d-145e-4fe2-bd04-c8a001043ede)  
 ![d3_192_44a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f7370f43-1c42-4b70-895c-61135b110f6f)  
