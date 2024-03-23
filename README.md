@@ -274,7 +274,9 @@ inversion of the input signal.
     ensures reliable operation even in noisy environments.
 
 -   **Scalability:** The CMOS design allows for miniaturization of
-    transistors, enabling denser and more powerful integrated circuits.
+    transistors, enabling denser and more powerful integrated circuits.  
+![d3_19](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1403b99d-7bd7-4f1e-85ff-2e9f1c96e61d)  
+
 
 #### SKY L0 - I0 placer revision     
  *Before FP IO set to value 1 = equidistance pin*  
