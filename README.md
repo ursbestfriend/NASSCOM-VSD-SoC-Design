@@ -330,8 +330,7 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 .end  
 **OPEN CMOS INVERTER IN MAGIC**
 ![d3_192a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d03fdeda-026b-44cf-a6c3-eaf5ba125af4)
-
-
+![d3_192_3b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4f28c06c-64cd-42f9-9b47-763d0e1c5842)  
 ![d3_sk1_l0_5_clone_inverInMagic](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a5b720a0-0bc2-4721-a056-71b70fe3690b)  
 ![d3_sk1_l0_5_clone_inverInMagic2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1e3b6fe6-65ba-4c7e-8398-3905edbfb375)  
 ![d3_sk1_l0_5_cloneVSDstdcelldesign](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d35f67b6-d8a4-422d-a5ef-c5972c729735)  
@@ -340,7 +339,11 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_sk1_l0_6_spiceExtraction2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9bbf5823-5b5b-4798-9d44-c301714a2f0d)  
 ![d3_sk1_l0_6_spiceExtraction3_BOX](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a1d52d4f-2a0b-4ca2-a53a-095aa0811aca)  
 ![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
-![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
+![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)    
+
+**Update the sky130_inv.spice File and OPEN in ngspice after installing **
+![d3_192_22a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/37a91878-12a9-4ca4-95ee-6597c5a8fda2)  
+![d3_192_22b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ddbab16c-b3d2-4434-b9d9-1eb6a76c0e13)
 
 #### SKY L4 - Static and dynamic simulation of CMOS inverter   
 *Static Simulation*  
@@ -490,6 +493,38 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_192_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2dfadfff-5c2a-46f9-a2c7-485b3a06d3f2)  
 ![d3_192_18](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/73711053-dc07-45c0-b821-29c1f9c8903e)  
 ![d3_192_17](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c462b6ef-f635-4f7f-8665-711d7563731e)  
+
+**Introduction of Magic Layout Tool and Lab Exercises for Magic DRC**  
+Magic is a tool for designing the layout of very-large-scale integration
+(VLSI) integrated circuits (ICs). In other words, it\'s used to create
+the blueprints for complex microchips.
+
+**Origin:** Developed at UC Berkeley in the 1980s by John Ousterhout.
+
+**Popularity:**
+
+-   Open-source license: This allows for free access and modification,
+    making it popular with universities and small companies.
+
+-   Customization: The open-source nature allows engineers to add
+    features and keep pace with evolving chip fabrication techniques.
+
+-   Ease of use: Many find it to be a user-friendly tool for circuit
+    layout, even if they use commercial tools for final designs.
+
+![d3_192_37](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8dc3e684-bc4a-40a1-99b4-1cf885acb456)  
+![d3_192_41a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d3d3aa65-cc4f-4306-af4d-b685996dafb3)  
+![d3_192_44b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7ac29d5d-145e-4fe2-bd04-c8a001043ede)  
+![d3_192_44a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f7370f43-1c42-4b70-895c-61135b110f6f)  
+![d3_192_58](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5e1ca9bf-21c2-400d-892e-6d021c75a85e)  
+![d3_192_62](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3ff19090-dc03-4d97-9fd4-b962fd6f8f1d)  
+![d3_192_61](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2ac49b01-cb02-4c0d-aaba-23b4d0694e14)  
+![d3_192_59](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c6c963aa-17e1-484e-bf8c-60ef5998735a)  
+![d3_192_55](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/00b693bd-2f67-4823-88e7-38559d6ae710)  
+![d3_192_54](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/84892bcf-b2c9-48cd-95d2-592325426152)  
+![d3_192_53](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a34dbebb-458c-47cf-b67e-68da4769245a)  
+![d3_192_50](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/da9e05c6-35cb-43a6-a669-aa8f8ad21956)  
+![d3_192_63](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ab846a66-067d-46c9-a2bb-1b9386544c31)  
 
   
 <a id="D4"></a>
