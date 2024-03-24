@@ -619,6 +619,16 @@ performance.
 ![D4_3b_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/039da565-101e-4474-9414-e5395f14f982)  
 ![D4_3b_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/35170fc8-3cde-4dae-bc8d-2706f76119c4)  
 ![D4_3b_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/244ab4d5-b41f-4f30-a030-b711b9bb6dc0)  
+**Copy New created new .lef inside the picorv32a/src**
+![D4_14a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/af114fb6-b280-4ed0-9c14-1f6f442de88e)  
+![D4_14b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a4994335-6785-4f3a-8a13-30aaaee62cfd)  
+
+*Modify config.tcl*
+![D4_18](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/fe6b7d6e-4378-44dd-b597-e5b402945407)  
+![D4_18a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/25629b4c-38ce-40e8-b14b-654cfd639e18)  
+![D4_18b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2c7896a5-15a5-495b-a97c-c8d2c76364da)
+
+
 
 
 
