@@ -1,4 +1,4 @@
-# NASSCOM-VSD-SoC-Design
+![D5_27](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9e553848-820e-4990-9334-6047de571921)# NASSCOM-VSD-SoC-Design
 VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.  
 [DAY 1 Inception of open-source EDA, OpenLANE and Sky130 PDK](#D1)  
@@ -772,14 +772,144 @@ analysis during your VLSI design process.
 ![D4_100_25](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8bca7059-b932-4253-b0ef-7c9cb332aee8)  
 ![D4_100_26](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4edd683b-1a72-4d52-9fa8-ce3de885697d)  
 ![D4_100_27](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/57c19ddd-a8b7-445b-b160-c19d1f4fb224)  
-
-
- 
-
-
-  
 ![D4_100_34](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9548bec7-4641-4eb8-a570-4c50746cd15c)  
 
 
 <a id="D5"></a>  
 ## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA  
+**1. Routing and Design Rule Check (DRC)**
+
+-   **What is Routing?**
+
+    -   The process of connecting components (gates) in a design using
+        metal wires.
+
+    -   Think of it like creating a network of roads on a map to connect
+        different cities.
+
+-   **What is DRC?**
+
+    -   A set of electrical and physical rules that ensure the
+        manufacturability of a design.
+
+    -   DRC checks for things like minimum wire width, spacing between
+        wires, and proper connections.
+
+    -   Imagine checking the road network for things like lane width,
+        safety clearances, and proper intersections.
+
+    -   
+
+-   **Example:**
+
+    -   You want to connect two logic gates (cities) with a wire (road).
+
+    -   Routing would determine the path of the wire.
+
+    -   DRC would ensure the wire width is thick enough to carry current
+        (lane width) and there\'s enough space between it and other
+        wires for reliable operation (safety clearance).
+
+**2. Power Distribution Network (PDN) and Routing**
+
+-   **What is PDN?**
+
+    -   A network of wires that delivers power (electricity) to all
+        parts of the design efficiently.
+
+    -   Think of it like the power grid that supplies electricity to
+        homes and businesses.
+
+    -   
+
+-   **Relationship with Routing:**
+
+    -   Regular routing shares space with PDN routing.
+
+    -   PDN routing needs careful planning to ensure stable voltage
+        delivery.
+
+    -   It\'s like having dedicated power lines alongside regular roads
+        to avoid overloading the system.
+
+    -   
+
+-   **Example:**
+
+    -   Your design needs stable power for all gates (cities) to
+        function properly.
+
+    -   PDN routing creates dedicated \"power lines\" to deliver this
+        power efficiently.
+
+    -   Regular routing for signal connections happens alongside these
+        power lines, but with proper spacing to avoid interference.
+
+**3. TritonRoute Features for RTL2GDS using TritonRoute and OpenSTA**
+
+GDS (GDSII stream - a file format for chip layout), OpenSTA (a static
+timing analysis tool), and TritonRoute (a detailed routing tool).
+
+-   **TritonRoute for Detailed Routing:**
+
+    -   Takes a netlist (connectivity information) and constraints from
+        OpenSTA.
+
+    -   Generates detailed routing patterns between components based on
+        those constraints.
+
+    -   Imagine using specialized software to design the actual road
+        network layout based on city locations and traffic flow
+        analysis.
+
+    -   
+
+-   **OpenSTA for Timing Analysis:**
+
+    -   Analyzes the timing characteristics of the design.
+
+    -   Provides constraints for routing to ensure signals arrive at
+        their destinations within the required time.
+
+    -   Think of it as a traffic flow analysis tool that helps determine
+        optimal road layouts to avoid congestion.
+
+    -   
+
+-   **Example:**
+
+    -   You have an RTL design (city map) and need to create the
+        physical layout (road network) in GDS format.
+
+    -   OpenSTA analyzes the timing requirements for signals (traffic
+        flow).
+
+    -   TritonRoute uses this information and the netlist to create
+        detailed routing patterns (actual road layout) that meet the
+        timing constraints.
+
+Overall, these concepts work together to ensure a manufactural and
+functionally correct chip design.  
+
+**Screenshot from the video session of the topic**
+
+![D5_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/fdd8f8a6-31c5-4706-a013-1968e775965d)  
+![D5_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5531eebf-527b-4a22-a53f-1bb83a2efafe)
+![D5_6](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/194e6c43-e3b0-4b3c-a89b-054507c716ac)  
+![D5_10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1dbe07db-df74-4027-b480-c34c5b9e9321)  
+![D5_14](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/fb1f38b3-19d4-4ff5-836f-ae133be3ed79)  
+![D5_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/863c3913-929e-45bb-8616-42085e96b388)  
+
+![D5_22](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3f142265-3fb8-4370-86f4-a254e2930e69)  
+![D5_30](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/08793f15-c98e-4396-bdc2-8bc2996544f6)
+![D5_31](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a01a04a4-40e8-43b5-a39d-737bba8cb29e)
+![D5_37](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/440e0835-d136-4d8e-be14-a94ac739febf)
+
+![D5_41](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4e9995e7-99c5-4e73-bdaa-df8bcd8d9732)
+![D5_44](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/14a2613b-2d78-4756-9308-4798b09259d6)
+![D5_49](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0e1307b1-bc52-4a4c-a73f-ebe61e3c2169)
+
+![D5_51](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2b042fdf-e66c-488c-ae78-7c680a2b5710)
+![D5_52](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d0eb280f-07a1-4cc2-9a20-b7b8ca6bbbfe)
+
+
