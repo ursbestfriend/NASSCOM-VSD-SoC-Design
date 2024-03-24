@@ -610,6 +610,17 @@ performance.
 ![D4_2B](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/65de5684-1a7a-4600-ab8c-068110a678ba)  
 ![D4_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/83a43d31-3568-456f-beb2-3e7a04a3a3cd)  
 
+**convert magic layout to std cell LEF**
+
+![D4_3a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/85fda6a6-7af9-42d0-b33c-fe9f8ae6d77c)  
+*Defining Port*  
+![D4_3_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3071bce2-3d0a-472a-bc54-e7bfd8ed6c17) 
+![D4_3b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c91e9edd-71f3-4295-940f-50a42f21b12a)   
+![D4_3b_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/039da565-101e-4474-9414-e5395f14f982)  
+![D4_3b_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/35170fc8-3cde-4dae-bc8d-2706f76119c4)  
+![D4_3b_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/244ab4d5-b41f-4f30-a030-b711b9bb6dc0)  
+
+
 
 
 
