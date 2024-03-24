@@ -598,7 +598,14 @@ performance.
     receive the clock signal at nearly the same time, avoiding timing
     violations and enabling reliable operation.  
 
-![D4_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ff90bd2e-1fbc-48e2-821c-4d0e4d258740)  
+**To view the routing track details, use this command as mentioned in image:**
+![D4_0b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/eeaf7516-b49f-41e5-a215-fb180c149eae)
+![D4_0a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0b1c0b59-b580-4eaa-bf42-3ed9bc9e2e28)
+
+**View after the command "grid 0.46um 0.34um 0.23um 0.17um"**
+![D4_0d](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/997fa9dc-4671-4e22-8849-32066fde485c)  
+*Chip I/O port positioned at track junction.*  
+
 ![D4_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/b16b23cc-a5ad-4737-8cdc-4eff2dacef6c)  
 ![D4_2B](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/65de5684-1a7a-4600-ab8c-068110a678ba)  
 ![D4_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/83a43d31-3568-456f-beb2-3e7a04a3a3cd)  
