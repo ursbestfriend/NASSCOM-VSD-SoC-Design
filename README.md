@@ -633,8 +633,6 @@ performance.
 
 ![D4_20b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/75e8c655-7b5d-4fb1-a9b6-9457b40c735a)
 
-<a id="D5"></a>  
-## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA  
 **Understanding Delay Tables in VLSI**
 
 **1. The Buffer Challenge:**
@@ -644,10 +642,13 @@ performance.
 -   However, buffer sizing is crucial:
 
     -   All buffers in a level should be the same size (for
-        consistency).
+        consistency).  
+
+        ![D4_28](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d336c545-b9a0-44e1-a8df-36d627eb503a)  
 
     -   But, individual delays need to vary depending on the load they
-        drive (more load needs a stronger, potentially slower, buffer).
+        drive (more load needs a stronger, potentially slower, buffer).  
+
 
 **2. Enter the Delay Table:**
 
@@ -658,7 +659,9 @@ performance.
 
 **3. The Delay Table Structure:**
 
--   Imagine a 2D array, like a spreadsheet, with two main axes:
+-   Imagine a 2D array, like a spreadsheet, with two main axes:  
+
+![D4_33](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/58be8820-0c3c-42ef-b47b-f94502e88861)  
 
     -   Input Slew: This represents the incoming signal strength.
 
@@ -689,3 +692,94 @@ performance.
 By using delay tables, you can perform faster and more accurate timing
 analysis during your VLSI design process.
 
+![D4_51](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a335dc10-b4de-4be0-98e7-1cf77acf1760)
+![D4_50](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/82af3241-cd63-4152-91cd-2602cc47194e)
+![D4_49](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/cf521205-239a-48f0-b056-044845e806a6)
+![D4_48](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8436d93a-26b1-4403-b3c5-58e881fb2bf8)
+![D4_47A](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d06e41a0-fe68-443a-bb85-854bc8298d9a)
+![D4_47](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a8c7b371-1dbd-4edd-b964-4500480da4af)
+![D4_46](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/807067a2-6ad5-4e6d-b6cd-f01a0515a9a1)
+![D4_45](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/77b8a4db-f627-44da-a896-db63bda56b17)
+![D4_44](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/93b118ad-e68f-42b7-981e-089bea3a787c)
+![D4_43](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6442d815-18fe-4069-8fe1-3380d967abaa)
+![D4_42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/88eaa8d6-f155-4f87-946f-9ce7166760cf)
+![D4_41](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/652f5931-d48b-4716-b27d-ad12f07e3470)
+![D4_40](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6f300a4d-6c8c-4338-a5a7-1655b0b7501e)
+![D4_39](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2ac8647a-89ed-4992-8405-a00d2617d91d)
+![D4_38](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c5c0e6f8-ae59-4b0c-9954-3afa35c3fc15)
+![D4_37](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a43d0ea5-6c17-48de-a7f3-898c042b2cd9)
+![D4_52](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/b9b7e5c4-e30b-4375-90bd-f40123d95993)
+*Setup Timing Analysis: Ideal vs. Real Clocks**
+
+**What is Setup Timing Analysis?**
+
+-   It checks if a signal arrives at a flip-flop (register) in time for
+    it to be captured correctly.
+
+-   Crucial for ensuring reliable chip operation.
+
+**Ideal Clocks:**
+
+-   **Perfect world:** Clocks arrive instantly and consistently at all
+    flip-flops.
+
+-   **Setup Time (Hold Time):** Minimum time a data signal needs to
+    be **stable** (hold) **before** (setup) the clock edge for capture.
+
+-   **Learning:** Ideal clocks simplify analysis, focusing on setup and
+    hold times from data path delays.
+
+**Real Clocks:**
+
+-   **Reality check:** Clock signals experience delays due to routing
+    and clock tree imperfections.
+
+-   **Clock Skew:** Variation in arrival time of the clock signal across
+    different parts of the chip.
+
+-   **Learning:** Need to consider clock skew when analyzing setup time.
+    Worst-case scenario: data arrives late at the slowest flip-flop due
+    to combined data path delay and clock skew.
+
+**Key Takeaway:**
+
+-   Ideal clocks are a good starting point for understanding setup
+    timing basics.
+
+-   Real clocks require factoring in clock skew for a more accurate
+    analysis in practical designs.
+
+*Snapshot of the concepts from videos*  
+![D4_60](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6e512a94-e843-4d7d-aebb-56f0982207e0) 
+![D4_61](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f1bad60a-fcc8-42af-8a5e-f0a0fec54320) 
+![D4_62](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e4971c57-48a8-47a3-b309-8284d5af206d)  
+![D4_64](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3ea012c3-c3b6-42d4-bad1-1c4643a4071d)  
+![D4_66](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6f39816f-02c1-487b-aee9-bfe2a7bfbdee) 
+![D4_68](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/133ddc58-3223-4d06-be97-9504ee038d15)  
+![D4_100_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7fb5e45a-767b-4083-978b-605aab1a0ca0)  
+![D4_100_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0ca0e21d-865f-473a-837d-ccff21683e32)  
+![D4_100_7](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/db8f4cf1-e495-455d-ad42-4b2128f80892)  
+![D4_100_10](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e16ba784-b44d-40f8-9865-c5c1c8c6d552)  
+![D4_100_11](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/57b5fc9e-ea6d-450f-ba66-b385ef8ccbbe)  
+![D4_100_12](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a4d5c91f-c6e4-46f9-9448-e51e254c2af4)  
+![D4_100_13](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f3ba15f6-f248-4751-a6ca-424104583725)  
+![D4_100_13a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6d1e2df1-14a1-4d6d-82e2-5899744014df)  
+![D4_100_14](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d78ccf53-3a1c-44fd-8caa-c9504b264b5f)  
+![D4_100_14a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a2176a6e-b25c-44d3-81d3-0de86dc6852e)  
+![D4_100_15b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a0faae36-7718-44a4-bc52-e484b4453dc6)  
+![D4_100_15e](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5007b8ea-9ac8-4f47-bfee-26f080b2b597)  
+![D4_100_17](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c730818e-5424-4a33-8417-2dba0653020d)  
+![D4_100_25](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8bca7059-b932-4253-b0ef-7c9cb332aee8)  
+![D4_100_26](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4edd683b-1a72-4d52-9fa8-ce3de885697d)  
+![D4_100_27](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/57c19ddd-a8b7-445b-b160-c19d1f4fb224)  
+
+
+ 
+
+
+  
+![D4_100_34](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9548bec7-4641-4eb8-a570-4c50746cd15c)  
+
+
+<a id="D5"></a>  
+## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA  
