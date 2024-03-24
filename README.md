@@ -628,6 +628,11 @@ performance.
 ![D4_18a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/25629b4c-38ce-40e8-b14b-654cfd639e18)  
 ![D4_18b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2c7896a5-15a5-495b-a97c-c8d2c76364da)
 
+*OPENLANE: prep -design and run synthesis*
+![D4_20a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/b5708c76-1513-40b3-9793-bd0bab6ec813)  
+
+![D4_20b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/75e8c655-7b5d-4fb1-a9b6-9457b40c735a)
+
 
 
 
