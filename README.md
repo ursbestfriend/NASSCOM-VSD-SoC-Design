@@ -915,4 +915,5 @@ functionally correct chip design.
 ![D5_51](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2b042fdf-e66c-488c-ae78-7c680a2b5710)
 ![D5_52](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d0eb280f-07a1-4cc2-9a20-b7b8ca6bbbfe)
 
+![D5_55](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/71fa9544-eae5-4792-99ec-eecbe1776b15)
 
