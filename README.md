@@ -633,12 +633,59 @@ performance.
 
 ![D4_20b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/75e8c655-7b5d-4fb1-a9b6-9457b40c735a)
 
-
-
-
-
-
-
 <a id="D5"></a>  
-## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA
-Coming Soon  
+## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA  
+**Understanding Delay Tables in VLSI**
+
+**1. The Buffer Challenge:**
+
+-   We use buffers to maintain signal integrity (strength) in a chip.
+
+-   However, buffer sizing is crucial:
+
+    -   All buffers in a level should be the same size (for
+        consistency).
+
+    -   But, individual delays need to vary depending on the load they
+        drive (more load needs a stronger, potentially slower, buffer).
+
+**2. Enter the Delay Table:**
+
+-   VLSI engineers created delay tables to address this challenge.
+
+-   These tables act as timing models, pre-built and readily available
+    online (often through e-foundries or platforms like Github).
+
+**3. The Delay Table Structure:**
+
+-   Imagine a 2D array, like a spreadsheet, with two main axes:
+
+    -   Input Slew: This represents the incoming signal strength.
+
+    -   Load Capacitance: This defines the amount of \"burden\"
+        (connected gates) the buffer needs to drive.
+
+**4. Finding the Right Delay:**
+
+-   When designing your circuit, you know the input slew and load for a
+    specific buffer.
+
+-   You use the delay table to find the corresponding delay value for
+    that combination.
+
+**5. Interpolation for Missing Data:**
+
+-   Sometimes, the exact input slew and load combination might not be
+    present in the table.
+
+-   The algorithm behind the delay table uses a technique called
+    extrapolation.
+
+-   It finds the closest data points and calculates the delay value
+    based on those points.
+
+**Benefit:**
+
+By using delay tables, you can perform faster and more accurate timing
+analysis during your VLSI design process.
+
