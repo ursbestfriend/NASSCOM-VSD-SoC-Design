@@ -589,10 +589,6 @@ performance.
 -   Synthesis settings in OpenLANE can be adjusted to influence cell
     selection and placement, potentially improving slack.
 
--   Vsdinv (Vendor Standard Delay Inverter) might be a setting or script
-    that utilizes a specific standard cell inverter for timing analysis
-    during synthesis.
-
 **Importance of a Good Clock Tree:**
 
 -   The clock tree distributes the clock signal to all parts of the
@@ -600,7 +596,15 @@ performance.
 
 -   A well-designed clock tree ensures that all flip-flops (registers)
     receive the clock signal at nearly the same time, avoiding timing
-    violations and enabling reliable operation.
+    violations and enabling reliable operation.  
+
+![D4_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ff90bd2e-1fbc-48e2-821c-4d0e4d258740)  
+![D4_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/b16b23cc-a5ad-4737-8cdc-4eff2dacef6c)  
+![D4_2B](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/65de5684-1a7a-4600-ab8c-068110a678ba)  
+![D4_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/83a43d31-3568-456f-beb2-3e7a04a3a3cd)  
+
+
+
 
 <a id="D5"></a>  
 ## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA
