@@ -352,22 +352,35 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 
 **RISE TIME , FALL TIME , Propagation Delay Calculation**  
 
+![d3_192_22d](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f5abf66f-ee84-41d1-96b0-f25f21cbdb3f)  
+
 **RISE TIME (tr):**
 
 -   Represents the time it takes for a signal to transition from 20% *( 3.3 * 0.2 = 0.66V)* to
     80% *( 3.3 * 0.8 = 2.64V)* of its steady-state value during a rising edge.
+-   Here **RISE TIME (tr) =  2.23583e-09 -2.17734e-09 = 58.49 ps**
+
+![d3_192_22g](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/47481231-7869-4211-b511-26966dc37cee)  
+![d3_192_22f](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/446eb774-77f3-4b04-ac23-fab55114a0da)  
+
 
 **FALL TIME (tf):**
 
 -   Represents the time it takes for a signal to transition from 80% *( 3.3 * 0.8 = 2.64V)* to
-    20% *( 3.3 * 0.2 = 0.66V)* of its steady-state value during a falling edge.
+    20% *( 3.3 * 0.2 = 0.66V)* of its steady-state value during a falling edge.  
+-   Here **FALL TIME  =  **4.09538e-09 - 4.05279e-09 =4.259e-11 = 42.59 ps**
+![d3_192_22h](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c5771356-293a-4c29-9f46-6c76f5471e2a)  
+
 
 **Propagation Delay (tpd):**
 
 -   Characterizes the time delay between a change in the input signal
     and the corresponding change in the output signal of a logic gate.
-    It's often measured from the 80% *( 3.3 * 0.5 = 1.65V)* point of the input waveform to the
+    It's often measured from the 50% *( 3.3 * 0.5 = 1.65V)* point of the input waveform to the
     50% *( 3.3 * 0.5 = 1.65V)* point of the output waveform.
+- *RISE DELAY = Output_Rise(50%) - Input_Fall(50%) =2.20441e-09 - 2.15e-09 = 5.441e-11 = 54.41 ps*   
+- *FALL DELAY = Output_Fall(50%) - Input_Rise(50%) =4.07785e-09 - 4.05054e-09 = 2.731e-11= 27.31 ps*
+- 
 
 **Measure Tool:**
 
