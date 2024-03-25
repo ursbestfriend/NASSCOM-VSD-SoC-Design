@@ -335,6 +335,8 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_192_3b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4f28c06c-64cd-42f9-9b47-763d0e1c5842)  
 ![d3_sk1_l0_5_clone_inverInMagic](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a5b720a0-0bc2-4721-a056-71b70fe3690b)  
 ![d3_sk1_l0_5_clone_inverInMagic2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1e3b6fe6-65ba-4c7e-8398-3905edbfb375)  
+![d3_192_3a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/48cd7be5-d913-43e5-9695-d44e41aeb102)  
+![d3_192_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/77068cbc-fa82-472f-91ce-6027a6f79d31)  
 ![d3_sk1_l0_5_cloneVSDstdcelldesign](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d35f67b6-d8a4-422d-a5ef-c5972c729735)  
 ![d3_sk1_l0_5_cloneVSDstdcelldesign2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d898f4d1-8133-405b-a3d3-17851e3e2ae2)  
 ![d3_sk1_l0_6_spiceExtraction](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/048dd7d2-eb3d-43b7-ac78-b361b19e1b25)  
@@ -496,16 +498,6 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 
 -   Compare results with theoretical expectations and model
     specifications.  
-![d3_192_31](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/011862c8-0d32-4bda-87d2-ecb164d2ea54)  
-![d3_192_30](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/854e976d-2618-4a90-9335-d045325769a1)  
-![d3_192_29](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7be22891-8b95-4dfa-ad8e-3f44ea2c1b31)  
-![d3_192_28](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3c1fcfb9-56d1-4757-9dd9-edaefc26c0b3)  
-![d3_192_27](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/144663a6-4764-4c63-91a3-06e0c4c91dc6)  
-![d3_192_26](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/52c9d995-04ef-4baf-b098-6014fe532649)  
-![d3_192_25](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ddf601c1-e956-4776-afac-d244944a1039)  
-![d3_192_24](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c554445d-1ef7-4d09-9372-5a5a40d02a38)  
-![d3_192_33](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d7ab223e-78bd-4804-a1a4-fb504b76a3f2)  
-![d3_192_32](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e5587690-ca93-4a59-979e-6cb21544faea)  
  
 -   **Lab introduction to Magic tool options and DRC rules:**
 
@@ -523,8 +515,7 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 -   Explore Sky130 PDK content (technology rules, model files, layout
     examples).
 
-![d3_192_3a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/48cd7be5-d913-43e5-9695-d44e41aeb102)  
-![d3_192_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/77068cbc-fa82-472f-91ce-6027a6f79d31)  
+
 
 
 -   **Lab introduction to Magic and steps to load Sky130 tech-rules:**
