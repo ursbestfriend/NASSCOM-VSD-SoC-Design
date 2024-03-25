@@ -346,8 +346,9 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 
 **Update the sky130_inv.spice File and OPEN in ngspice after installing**  
 ![d3_192_22a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/706d51fb-6fec-47d9-bcda-4be08de4795d)
-
 ![d3_192_22b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ddbab16c-b3d2-4434-b9d9-1eb6a76c0e13)
+**Output of plot command on ngspice**
+![d3_192_22c](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ae159160-f6a6-4ee7-8b6a-4c99861c0005)
 
 #### SKY L4 - Static and dynamic simulation of CMOS inverter   
 *Static Simulation*  
