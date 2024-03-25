@@ -342,11 +342,17 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_sk1_l0_6_spiceExtraction](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/048dd7d2-eb3d-43b7-ac78-b361b19e1b25)  
 ![d3_sk1_l0_6_spiceExtraction2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9bbf5823-5b5b-4798-9d44-c301714a2f0d)  
 ![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
+![d3_192_16](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/828d0a15-4411-4642-8ec0-1a2079dc4310)  
+![d3_192_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2dfadfff-5c2a-46f9-a2c7-485b3a06d3f2)  
+![d3_192_18](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/73711053-dc07-45c0-b821-29c1f9c8903e)  
+![d3_192_17](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c462b6ef-f635-4f7f-8665-711d7563731e)  
 
 **Unit box Distance in Magic Layout**
 ![d3_192_22_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/34a87703-c733-4556-bb32-7ff8ef756d7a)
 
-**Update the sky130_inv.spice File and OPEN in ngspice after installing**  
+**Update the sky130_inv.spice File and OPEN in ngspice after installing** 
+
+
 ![d3_192_22a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/706d51fb-6fec-47d9-bcda-4be08de4795d)
 ![d3_192_22b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ddbab16c-b3d2-4434-b9d9-1eb6a76c0e13)
 **Output of plot command on ngspice**
@@ -527,10 +533,6 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 -   Set up drawing layers and styles according to PDK specifications.
 
 -   Familiarize with basic layout editing commands in Magic.
-![d3_192_16](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/828d0a15-4411-4642-8ec0-1a2079dc4310)  
-![d3_192_15](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2dfadfff-5c2a-46f9-a2c7-485b3a06d3f2)  
-![d3_192_18](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/73711053-dc07-45c0-b821-29c1f9c8903e)  
-![d3_192_17](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c462b6ef-f635-4f7f-8665-711d7563731e)  
 
 **Introduction of Magic Layout Tool and Lab Exercises for Magic DRC**  
 Magic is a tool for designing the layout of very-large-scale integration
