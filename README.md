@@ -354,20 +354,20 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 
 **RISE TIME (tr):**
 
--   Represents the time it takes for a signal to transition from 10% to
-    90% of its steady-state value during a rising edge.
+-   Represents the time it takes for a signal to transition from 20% *( 3.3 * 0.2 = 0.66V)* to
+    80% *( 3.3 * 0.8 = 2.64V)* of its steady-state value during a rising edge.
 
 **FALL TIME (tf):**
 
--   Represents the time it takes for a signal to transition from 90% to
-    10% of its steady-state value during a falling edge.
+-   Represents the time it takes for a signal to transition from 80% *( 3.3 * 0.8 = 2.64V)* to
+    20% *( 3.3 * 0.2 = 0.66V)* of its steady-state value during a falling edge.
 
 **Propagation Delay (tpd):**
 
 -   Characterizes the time delay between a change in the input signal
     and the corresponding change in the output signal of a logic gate.
-    It's often measured from the 50% point of the input waveform to the
-    50% point of the output waveform.
+    It's often measured from the 80% *( 3.3 * 0.5 = 1.65V)* point of the input waveform to the
+    50% *( 3.3 * 0.5 = 1.65V)* point of the output waveform.
 
 **Measure Tool:**
 
