@@ -342,8 +342,10 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_sk1_l0_6_spiceExtraction3_BOX](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a1d52d4f-2a0b-4ca2-a53a-095aa0811aca)  
 ![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
 ![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)    
+**Unit box Distance in Magic Layout**
+![d3_192_22_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/34a87703-c733-4556-bb32-7ff8ef756d7a)
 
-**Update the sky130_inv.spice File and OPEN in ngspice after installing **
+**Update the sky130_inv.spice File and OPEN in ngspice after installing**
 ![d3_192_22a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/37a91878-12a9-4ca4-95ee-6597c5a8fda2)  
 ![d3_192_22b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ddbab16c-b3d2-4434-b9d9-1eb6a76c0e13)
 
