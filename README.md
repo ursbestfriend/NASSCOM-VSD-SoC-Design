@@ -1,4 +1,4 @@
-
+.
 ![Digital SoC Design and Planning using OPENLANE FLOW collaboration with NASSCOM FutureSkills Prime](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5129f3cc-ec01-414e-a7ce-6ab6cdaee3ea)
 
 VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
@@ -691,9 +691,11 @@ performance.
 ![D4_18b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2c7896a5-15a5-495b-a97c-c8d2c76364da)
 
 *OPENLANE: prep -design and run synthesis*
-![D4_20a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/b5708c76-1513-40b3-9793-bd0bab6ec813)  
+![D4_19a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d040a0cf-a3d3-4237-af1b-a4bd3a7d43e6)  
 
-![D4_20b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/75e8c655-7b5d-4fb1-a9b6-9457b40c735a)
+![D4_19b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/bb77c34a-e516-4f2c-adfc-749940898d50)
+
+
 
 **Understanding Delay Tables in VLSI**
 
