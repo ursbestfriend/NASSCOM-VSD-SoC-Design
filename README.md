@@ -344,8 +344,9 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 **Unit box Distance in Magic Layout**
 ![d3_192_22_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/34a87703-c733-4556-bb32-7ff8ef756d7a)
 
-**Update the sky130_inv.spice File and OPEN in ngspice after installing**
-![d3_192_22a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/163eb4cd-2a93-4471-af71-f4d9c3a9e709)
+**Update the sky130_inv.spice File and OPEN in ngspice after installing**  
+![d3_192_22a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/706d51fb-6fec-47d9-bcda-4be08de4795d)
+
 ![d3_192_22b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/ddbab16c-b3d2-4434-b9d9-1eb6a76c0e13)
 
 #### SKY L4 - Static and dynamic simulation of CMOS inverter   
