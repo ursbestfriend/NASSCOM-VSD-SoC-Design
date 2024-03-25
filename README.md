@@ -692,10 +692,11 @@ performance.
 
 *OPENLANE: prep -design and run synthesis*
 ![D4_19a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d040a0cf-a3d3-4237-af1b-a4bd3a7d43e6)  
-
 ![D4_19b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/bb77c34a-e516-4f2c-adfc-749940898d50)
+![D4_19c](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c4d6bc48-7b12-49e5-9724-01ace3ff3657)  
 
-
+* Rerun synthesis after changing : SYNTH_STRATEGY , SYNTH_SIZING*  
+![D4_19d](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/58c9dbd6-8670-4f71-b3ee-5e53576d45b8)
 
 **Understanding Delay Tables in VLSI**
 
