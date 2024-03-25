@@ -339,9 +339,8 @@ Specify the simulation type (e.g., transient analysis) and desired output (e.g.,
 ![d3_sk1_l0_5_cloneVSDstdcelldesign2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d898f4d1-8133-405b-a3d3-17851e3e2ae2)  
 ![d3_sk1_l0_6_spiceExtraction](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/048dd7d2-eb3d-43b7-ac78-b361b19e1b25)  
 ![d3_sk1_l0_6_spiceExtraction2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9bbf5823-5b5b-4798-9d44-c301714a2f0d)  
-![d3_sk1_l0_6_spiceExtraction3_BOX](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a1d52d4f-2a0b-4ca2-a53a-095aa0811aca)  
 ![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)  
-![d3_sk1_l0_6_spiceExtraction3_File](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/49fe0fc3-705e-4126-b27a-aa9f3cccd227)    
+
 **Unit box Distance in Magic Layout**
 ![d3_192_22_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/34a87703-c733-4556-bb32-7ff8ef756d7a)
 
