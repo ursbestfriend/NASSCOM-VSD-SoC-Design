@@ -551,9 +551,31 @@ the blueprints for complex microchips.
 
 -   Ease of use: Many find it to be a user-friendly tool for circuit
     layout, even if they use commercial tools for final designs.
- 
+ **Download lab File from http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz**
 ![d3_192_44b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/7ac29d5d-145e-4fe2-bd04-c8a001043ede)  
 ![d3_192_44a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f7370f43-1c42-4b70-895c-61135b110f6f)  
+**OPEN DESIGN IN MAGIC TO CHECK DRC error and SOLVE**
+![d3_192_44c](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0ba2c002-f56f-4fd1-aff1-eb7226ab5988)  
+![d3_192_44d](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/1b5e61fb-692e-441e-82bc-eab694d4f9ed)  
+![d3_192_44e](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/42a3f38b-e89f-4195-b168-b3374a253b41)  
+*DRC Error in poly.mag*  
+![d3_192_44e](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4241c40e-bf44-4b36-82a1-d0fbe545e0ea)  
+*Online Reference for  DRC Rule of skywater 130 PDK: https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html#poly*
+![d3_192_44f](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8078f754-4f0a-4e1b-95c4-2dfffc6d978a)  
+*Edit sky130A.tech File to solve the above DRC error*
+![d3_192_44g](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/edd245f1-dcfb-426e-b957-76704779314b)
+![d3_192_44h](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/76ed4276-527d-42f4-a055-24265e8660fa)  
+**FOLLOW BELOW STEPS**  
+*Step 1: Save your work.  Make sure to save your current design.**  
+*Step 2: Load the Sky130 Tech File.  In Magic's terminal window, type the following command:tech load sky130A.tech ; A warning message might appear. Click "Yes" to proceed with loading the technology file.*  
+*Step 3: Run Design Rule Check (DRC).  After loading the tech file, type the following command in the terminal: drc check*
+This command will initiate a DRC check on your design using the loaded Sky130 technology rules.
+
+![d3_192_44i](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/cbdf57f7-e707-4f3a-aab7-4b23a54d9443)  
+
+*Similarly various DRC errors can be checked & by modifing the sky130A.tech it will be resolved*
+
+**Screenshot of the Lectuer videos inline with above topic**
 ![d3_192_58](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5e1ca9bf-21c2-400d-892e-6d021c75a85e)  
 ![d3_192_62](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/3ff19090-dc03-4d97-9fd4-b962fd6f8f1d)  
 ![d3_192_61](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2ac49b01-cb02-4c0d-aaba-23b4d0694e14)  
