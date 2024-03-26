@@ -697,6 +697,10 @@ performance.
 
 * Rerun synthesis after changing : SYNTH_STRATEGY , SYNTH_SIZING*  
 ![D4_19d](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/58c9dbd6-8670-4f71-b3ee-5e53576d45b8)
+![D4_19e](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c1b590f7-a6d8-4c19-981d-94f9f0335250)  
+
+*Run floorplan after adding sky130_inv*  
+
 
 **Understanding Delay Tables in VLSI**
 
