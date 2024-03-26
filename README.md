@@ -699,7 +699,29 @@ performance.
 ![D4_19d](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/58c9dbd6-8670-4f71-b3ee-5e53576d45b8)
 ![D4_19e](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c1b590f7-a6d8-4c19-981d-94f9f0335250)  
 
-*Run floorplan after adding sky130_inv*  
+*Run floorplan and Placment after adding sky130_vsdinv*  
+![D4_48e](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/fba42481-05b4-4400-b708-e15355846911)  
+![D4_48d](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/71c00a5d-7691-4bf6-af06-dc2b65609d74)  
+![D4_48c](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/683a622f-43ae-4d3f-b236-2895770fbbd8)  
+![D4_48b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/405d22fb-8ac8-4a06-a723-8423e9dec84b)  
+
+*Inside the picorv32a Design you can observe sky130_vsdinv* 
+
+![D4_48a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/eb1576b4-466c-4694-804d-4e90940e45b3)  
+![D4_48a_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/52ca15d3-b1d4-4eef-ba03-c204a36ff699)  
+
+*Configure OpenSTA after Synthesis : Create pre_sta.conf and my_base.sdc file as shown below & run command : sta pre_sta.conf in Openlane*  
+![D4_72_3](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9a86ff8b-4c60-47dc-b90a-0cc0b3661b56)  
+![D4_72_2](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a9c07e71-5721-4224-ab60-4355d8c086cf)  
+![D4_72_0](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/5e6393e3-e5d1-461c-9c95-c4963e121796)
+![D4_72_1](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/bb2a396c-e026-4959-a519-d417b14d63da)
+![D4_72_1a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d6812b6c-ab4a-4799-a332-fefc5eaae187)
+![D4_72_1b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a34d19f3-4824-47c3-b1a9-3d7969ad3bf8)  
+
+*Fix the Timing issue*
+
+
+
 
 
 **Understanding Delay Tables in VLSI**
