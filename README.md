@@ -786,18 +786,8 @@ performance.
 By using delay tables, you can perform faster and more accurate timing
 analysis during your VLSI design process.
 
-![D4_51](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a335dc10-b4de-4be0-98e7-1cf77acf1760)
-![D4_50](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/82af3241-cd63-4152-91cd-2602cc47194e)
-![D4_49](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/cf521205-239a-48f0-b056-044845e806a6)
 
-![D4_46](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/807067a2-6ad5-4e6d-b6cd-f01a0515a9a1)
-![D4_45](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/77b8a4db-f627-44da-a896-db63bda56b17)
-![D4_44](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/93b118ad-e68f-42b7-981e-089bea3a787c)
-![D4_43](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6442d815-18fe-4069-8fe1-3380d967abaa)
-![D4_42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/88eaa8d6-f155-4f87-946f-9ce7166760cf)
-
-
-*Setup Timing Analysis: Ideal vs. Real Clocks**
+#### Setup Timing Analysis: Ideal vs. Real Clocks
 
 **What is Setup Timing Analysis?**
 
