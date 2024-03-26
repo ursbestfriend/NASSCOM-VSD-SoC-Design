@@ -718,7 +718,7 @@ performance.
 ![D4_72_1a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d6812b6c-ab4a-4799-a332-fefc5eaae187)
 ![D4_72_1b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a34d19f3-4824-47c3-b1a9-3d7969ad3bf8)  
 
-*Fix the Timing issue and overwrite the Verilog file using command: write_verilog*
+*Fix the Timing issue and overwrite the Verilog file using the command: write_verilog*
 
 ![D4_84a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d8c17da2-9513-4342-b672-4b1856a069d6)
 ![D4_84b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/225b3cb5-0958-4e2e-b0c2-42cb0cbd7261)
@@ -789,20 +789,14 @@ analysis during your VLSI design process.
 ![D4_51](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a335dc10-b4de-4be0-98e7-1cf77acf1760)
 ![D4_50](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/82af3241-cd63-4152-91cd-2602cc47194e)
 ![D4_49](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/cf521205-239a-48f0-b056-044845e806a6)
-![D4_48](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/8436d93a-26b1-4403-b3c5-58e881fb2bf8)
-![D4_47A](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d06e41a0-fe68-443a-bb85-854bc8298d9a)
-![D4_47](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a8c7b371-1dbd-4edd-b964-4500480da4af)
+
 ![D4_46](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/807067a2-6ad5-4e6d-b6cd-f01a0515a9a1)
 ![D4_45](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/77b8a4db-f627-44da-a896-db63bda56b17)
 ![D4_44](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/93b118ad-e68f-42b7-981e-089bea3a787c)
 ![D4_43](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6442d815-18fe-4069-8fe1-3380d967abaa)
 ![D4_42](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/88eaa8d6-f155-4f87-946f-9ce7166760cf)
-![D4_41](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/652f5931-d48b-4716-b27d-ad12f07e3470)
-![D4_40](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/6f300a4d-6c8c-4338-a5a7-1655b0b7501e)
-![D4_39](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/2ac8647a-89ed-4992-8405-a00d2617d91d)
-![D4_38](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/c5c0e6f8-ae59-4b0c-9954-3afa35c3fc15)
-![D4_37](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a43d0ea5-6c17-48de-a7f3-898c042b2cd9)
-![D4_52](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/b9b7e5c4-e30b-4375-90bd-f40123d95993)
+
+
 *Setup Timing Analysis: Ideal vs. Real Clocks**
 
 **What is Setup Timing Analysis?**
