@@ -718,8 +718,11 @@ performance.
 ![D4_72_1a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d6812b6c-ab4a-4799-a332-fefc5eaae187)
 ![D4_72_1b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/a34d19f3-4824-47c3-b1a9-3d7969ad3bf8)  
 
-*Fix the Timing issue*
+*Fix the Timing issue and overwrite the Verilog file using command: write_verilog*
 
+![D4_84a](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/d8c17da2-9513-4342-b672-4b1856a069d6)
+![D4_84b](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/225b3cb5-0958-4e2e-b0c2-42cb0cbd7261)
+![D4_84c](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/e475ffad-cc17-404b-8608-3cb19665dfa1)
 
 
 
