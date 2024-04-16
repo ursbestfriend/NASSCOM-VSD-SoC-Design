@@ -986,7 +986,8 @@ functionally correct chip design.
 
 ![D5_41](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4e9995e7-99c5-4e73-bdaa-df8bcd8d9732)
 ![D5_44](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/14a2613b-2d78-4756-9308-4798b09259d6)
-![D5_49](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/0e1307b1-bc52-4a4c-a73f-ebe61e3c2169)
+![D5_49](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/efb07699-3ed2-4b59-95fe-a78142925cac)
+
 ![D5_51](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/f05f0f4b-e510-40b2-9454-5b6a6d5a870e)
 ![D5_52](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/fb5ee4e4-0b6e-4e4c-8a3c-df1c7b47e3be)
 ![D5_55](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/71fa9544-eae5-4792-99ec-eecbe1776b15)
