@@ -3,14 +3,14 @@
 
 VSD Workshop on **Digital SoC Design and Planning** using OPENLANE FLOW collaboration with **NASSCOM FutureSkills Prime**.
 This GitHub repository serves as a comprehensive resource for the VSD Workshop.  
-[DAY 1 Inception of open-source EDA, OpenLANE and Sky130 PDK](#D1)  
-[DAY 2 Good floorplan vs bad floorplan and introduction to library cells](#D2)  
-[DAY 3 Design library cell using Magic Layout and ngspice characterization](#D3)  
-[DAY 4 Pre-layout timing analysis and importance of good clock tree](#D4)  
-[DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA](#D5)  
+[Topic 1 Inception of open-source EDA, OpenLANE and Sky130 PDK](#D1)  
+[Topic 2 Good floorplan vs bad floorplan and introduction to library cells](#D2)  
+[Topic 3 Design library cell using Magic Layout and ngspice characterization](#D3)  
+[Topic 4 Pre-layout timing analysis and importance of good clock tree](#D4)  
+[Topic 5 Final steps for RTL2GDS using tritonRoute and openSTA](#D5)  
 
 <a id="D1"></a>
-## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK   
+## Topic 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK   
   **SKY130 D1 SK1- How to talk to computers**   
  
 ***SKY L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPS***   
@@ -97,7 +97,7 @@ For more information on the Terminal command : [CLICK HERE](https://help.ubuntu.
 ![flop_ratio](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/4d52af77-d347-4295-b463-b030546982c0)
 
 <a id="D2"></a>
-## DAY 2 -  Good floorplan vs bad floorplan and introduction to library cells  
+## Topic 2 -  Good floorplan vs bad floorplan and introduction to library cells  
   ### SKY130 D2 SK1 - Chip Floor planning considerations  
 
 ### SKY L1 -Utilization factor and aspect ratio 
@@ -231,7 +231,7 @@ __**Layout Versus Schematic (LVS):** Verifies the final layout accurately reflec
 ![P74_D2_sk4_L2_14](https://github.com/ursbestfriend/NASSCOM-VSD-SoC-Design/assets/125972379/9b6ded2b-aca6-43fd-9137-9f553aadbc21)  
 
 <a id="D3"></a>
-## DAY 3 Design library cell using Magic Layout and ngspice characterization  
+## Topic 3 Design library cell using Magic Layout and ngspice characterization  
 ### SKY130 03 SK1 - Labs for CMOS inverter ngspice simulations   
 
 The CMOS inverter, short for Complementary Metal-Oxide-Semiconductor
@@ -588,7 +588,7 @@ This command will initiate a DRC check on your design using the loaded Sky130 te
 
   
 <a id="D4"></a>
-## DAY 4 Pre-layout timing analysis and importance of good clock tree  
+## Topic 4 Pre-layout timing analysis and importance of good clock tree  
  **Pre-layout Timing Analysis and Importance of a Good Clock Tree in
 OpenLANE**
 
@@ -854,7 +854,7 @@ analysis during your VLSI design process.
 
 
 <a id="D5"></a>  
-## DAY 5 Final steps for RTL2GDS using tritonRoute and openSTA  
+## Topic 5 Final steps for RTL2GDS using tritonRoute and openSTA  
 **1. Routing and Design Rule Check (DRC)**
 
 -   **What is Routing?**
